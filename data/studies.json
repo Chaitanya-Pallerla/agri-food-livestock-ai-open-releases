@@ -1,0 +1,3888 @@
+[
+ {
+  "key": "10.1186/s44342-025-00058-z",
+  "doi": "10.1186/s44342-025-00058-z",
+  "title": "A curation system of rice trait ontology with reliable interoperation by LLM and PubAnnotation",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Ahmad, J.M., Liu, Y.-W., Kim, J.-D., Yao, X., et al."
+  ],
+  "venue": "Genomics &amp; Informatics",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Ahmad4321/rice-trait-curation-system",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Ahmad et al., 2025"
+ },
+ {
+  "key": "10.1109/iccp63557.2024.10793002",
+  "doi": "10.1109/ICCP63557.2024.10793002",
+  "title": "Streamlining crop segmentation with multispectral imaging and foundation models: Minimizing manual annotation",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Aszkowski, P., Kraft, M."
+  ],
+  "venue": "2024 IEEE",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/PUTvision/multispectral-beetroots",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Aszkowski and Kraft, 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2410.08405",
+  "doi": "10.48550/arXiv.2410.08405",
+  "title": "AgroGPT: Efficient agricultural vision-language model with expert tuning",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Awais, M., Alharthi, A.H.S.A., Kumar, A., Cholakkal, H., Anwer, R.M."
+  ],
+  "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/awaisrauf/agroGPT",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Awais et al., 2025"
+ },
+ {
+  "key": "10.64898/2025.12.22.695963",
+  "doi": "10.64898/2025.12.22.695963",
+  "title": "A multispecies foundation model for genome function prediction, gene annotation and sequence design",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Boshar, S., Evans, B., Tang, Z.-Q., Adel, Y., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Foundation models",
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/instadeepai/nucleotide-transformer",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/spaces/InstaDeepAI/ntv3",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Boshar et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2603.16934",
+  "doi": "10.48550/arXiv.2603.16934",
+  "title": "AgriChat: A multimodal large language model for agriculture image understanding",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Boudiaf, A., Hussain, I., Javed, S."
+  ],
+  "venue": "arXiv:2603.16934",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/boudiafA/AgriChat",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Boudiaf et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2605.03259",
+  "doi": "10.48550/arXiv.2605.03259",
+  "title": "CropVLM: A domain-adapted vision-language model for open-set crop analysis",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Boudiaf, A., Javed, S."
+  ],
+  "venue": "arXiv:2605.03259",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/boudiafA/CropVLM",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Boudiaf and Javed, 2026"
+ },
+ {
+  "key": "10.64898/2026.08.01.742180",
+  "doi": "10.64898/2026.08.01.742180",
+  "title": "scMaize: A single-cell foundation model and integrated atlas for maize",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Cheng, Q., Zhang, Y., Wu, T.-H., Zhao, A.-W., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/yjthu/scMaize",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://www.scmaize.com",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Cheng et al., 2026"
+ },
+ {
+  "key": "10.1109/icimia69818.2026.11745027",
+  "doi": "10.1109/ICIMIA69818.2026.11745027",
+  "title": "AgroChat: A multimodal retrieval-augmented assistant with reliability-aware inference for crop diagnosis",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Deepika, M., Rishita, P., Sreehitha, U., Kumar, P.V., et al."
+  ],
+  "venue": "2026",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Sreehitha05/Agrochat",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Deepika et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2603.22777",
+  "doi": "10.48550/arXiv.2603.22777",
+  "title": "AgriPestDatabase-v1.0: A structured insect dataset for training agricultural large language model",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Durak, Y.B., Islam, A.U., Islam, S., Morgan-Olvera, A., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Quantization and edge deployment"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SHAFNehal/AgriPestDatabase_USDA_TextDataBase_for_LLM_Training",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Durak et al., 2026"
+ },
+ {
+  "key": "10.1016/j.xplc.2026.102096",
+  "doi": "10.1016/j.xplc.2026.102096",
+  "title": "iPheno: A novel dual-aware vision-language model for multi-task fine-scale crop phenotyping",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Fu, L., Liu, H., Han, Y., Ling, S., et al."
+  ],
+  "venue": "Plant Communications",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/datasets/AI4Bread/iPheno-120K",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Fu et al., 2026"
+ },
+ {
+  "key": "10.3390/app16041745",
+  "doi": "10.3390/app16041745",
+  "title": "Benchmark of genomic language models on human and rice genomic tasks",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Gao, X.-S., Wu, S., Pan, W.-H."
+  ],
+  "venue": "Applied Sciences",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/gxs1111/gxs1111-Rice-Human-GLM-Benchmark",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Gao et al., 2026"
+ },
+ {
+  "key": "10.52202/085713-2540",
+  "doi": "10.52202/085713-2540",
+  "title": "AgMMU: A comprehensive agricultural multimodal understanding benchmark",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Gauba, A., Pi, I., Man, Y., Pang, Z., Adve, V.S., Wang, Y.-X."
+  ],
+  "venue": "Advances in Neural Information Processing Systems",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Distillation"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/AgMMU/AgMMU",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/datasets/AgMMU/AgMMU_v1",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Gauba et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2207.03270",
+  "doi": "10.48550/arXiv.2207.03270",
+  "title": "gym-DSSAT: A crop model turned into a reinforcement learning environment",
+  "date": "2022-01-01",
+  "year": 2022,
+  "authors": [
+   "Gautron, R., Padron, E.J., Preux, P., Bigot, J., Maillard, O.-A., Emukpere, D."
+  ],
+  "venue": "arXiv:2207.03270",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://gitlab.inria.fr/rgautron/gym_dssat_pdi",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Gautron et al., 2022"
+ },
+ {
+  "key": "10.64898/2026.08.31.748176",
+  "doi": "10.64898/2026.08.31.748176",
+  "title": "TomatoPGFM: A graph-conditioned foundation model for tomato pangenomes",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Han, J.-L., Yushan, T., Wang, J., Yang, H.-T., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Foundation models",
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/tomatoai2026/TomatoPGFM",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://doi.org/10.5281/zenodo.22035724",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Han et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2609.25040",
+  "doi": "10.48550/arXiv.2609.25040",
+  "title": "BananaVLM: A domain-adapted vision language model for banana crop disease diagnosis",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Jena, S.K., Arjunan, P."
+  ],
+  "venue": "arXiv:2609.25040",
+  "domains": [
+   "Agriculture",
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/samy101/banana-vlm",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Jena and Arjunan, 2026"
+ },
+ {
+  "key": "10.1080/20964471.2026.2691477",
+  "doi": "10.1080/20964471.2026.2691477",
+  "title": "Distilling geospatial foundation model semantics into interpretable sentinel-1/2 proxies for few-shot and cross-year crop type classification",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Jing, K., Zhang, M., Wu, B.-F., Xie, Y., et al."
+  ],
+  "venue": "Big Earth Data",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Foundation models",
+   "Distillation"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/jingkangjian1999/aef-recon-fewshot",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Jing et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2506.08897",
+  "doi": "10.48550/arXiv.2506.08897",
+  "title": "PlantDeBERTa: An open source language model for plant science",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Khey, H., Lakhder, A., Rouichi, S., Ghabi, I.E., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/PHENOMA/PlantDeBERTa",
+    "kinds": [
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Khey et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2510.12023",
+  "doi": "10.48550/arXiv.2510.12023",
+  "title": "Information extraction from conversation transcripts: Neuro-symbolic vs",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Kwak, A., Alexeeva, M., Hahn-Powell, G., Alcock, K., et al."
+  ],
+  "venue": "LLM. arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection",
+   "Neuro-symbolic AI"
+  ],
+  "releases": [
+   {
+    "url": "https://anonymous.4open.science/r/ag_dataset-8E0B/",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Kwak et al., 2025"
+ },
+ {
+  "key": "10.1109/tcsvt.2026.3716457",
+  "doi": "10.1109/TCSVT.2026.3716457",
+  "title": "TRAG-DPO: Enhancing visual question answering in tomato disease diagnosis via hybrid retrieval and DPO-based preference alignment",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Lu, X., Zhu, H., Zhang, Q., Wang, X., et al."
+  ],
+  "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Computer vision",
+   "Machine learning and deep learning",
+   "Reinforcement fine-tuning (GRPO, RLHF)"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SaaSttt/TRAG-DPO",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Lu et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2604.07814",
+  "doi": "10.48550/arXiv.2604.07814",
+  "title": "AgriChain visually grounded expert verified reasoning for interpretable agricultural vision language models",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Mahmood, H., Yu, Y., Anwer, R."
+  ],
+  "venue": "International Conference on Language Resources and Evaluation",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models",
+   "Reasoning models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/hazzanabeel12-netizen/agrichain",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mahmood et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2607.18576",
+  "doi": "10.48550/arXiv.2607.18576",
+  "title": "Text-conditioned segmentation for tomato phenotyping via procedural synthetic data",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Mounir, S., Cieslak, M., Dhieb, N., Ghazzai, H., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "",
+    "kinds": [
+     "data",
+     "weights"
+    ],
+    "source": "paper states a release but gives no link",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mounir et al., 2026"
+ },
+ {
+  "key": "10.64898/2026.09.11.749989",
+  "doi": "10.64898/2026.09.11.749989",
+  "title": "Environment-aware DNA language model for stress-responsive genomic prioritization in maize",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Pal, D., Odell, A., Singh, A., Thompson, A., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning",
+   "Foundation models",
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/iPRoBe-lab/Environment_Aware_DNA_LLM",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Pal et al., 2026"
+ },
+ {
+  "key": "10.1016/j.compag.2026.112267",
+  "doi": "10.1016/j.compag.2026.112267",
+  "title": "AquaAgent-OSPy: An auditable LLM tool-agent system for simulation-grounded irrigation decision support",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Park, E., Kim, T., Park, J."
+  ],
+  "venue": "Computers and Electronics in Agriculture (in press)",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/egpark-knu/aquaagent-ospy-reproducibility",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Park et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2606.29243",
+  "doi": "10.48550/arXiv.2606.29243",
+  "title": "KrishokChat: A provenance-traceable multi-task bengali agricultural benchmark with safety-critical chemical advisory",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Reza, K.R.I., Nimi, S.T., Shahid, O.I."
+  ],
+  "venue": "arXiv preprint arXiv:2606.29243",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/datasets/RaiyanKhaan/KrishokChat",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Reza et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2608.24935",
+  "doi": "10.48550/arXiv.2608.24935",
+  "title": "A lightweight multimodal vision-language framework for early-stage anatomical green fruit classification in commercial orchards",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Sapkota, R., Bu, W., Chen, C., Xu, Y., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Robotics",
+   "Quantization and edge deployment"
+  ],
+  "releases": [
+   {
+    "url": "",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper states a release but gives no link",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Sapkota et al., 2026"
+ },
+ {
+  "key": "10.1111/2041-210x.14341",
+  "doi": "10.1111/2041-210X.14341",
+  "title": "Large language models help facilitate the automated synthesis of information on potential pest controllers",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Scheepens, D., Millard, J., Farrell, M., Newbold, T."
+  ],
+  "venue": "Methods in Ecology and Evolution",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/dscheepens/GPT4-pest-controllers",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Scheepens et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2507.20519",
+  "doi": "10.48550/arXiv.2507.20519",
+  "title": "AgroBench: Vision-language model benchmark in agriculture",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Shinoda, R., Inoue, N., Kataoka, H., Onishi, M., Ushiku, Y."
+  ],
+  "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV),",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://dahlian00.github.io/AgroBenchPage/",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Shinoda et al., 2025"
+ },
+ {
+  "key": "10.3390/genes17101173",
+  "doi": "10.3390/genes17101173",
+  "title": "A frozen plant DNA language model for computational prioritization and functional annotation of melon (Cucumis melo) variants",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Sun, G.-S., Wei, Y.-P., Li, E.-T., Xiao, M.-T., et al."
+  ],
+  "venue": "Genes",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/sgs8725/melon-plantcad2-evee-v1.0",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Sun, G.-S. et al., 2026"
+ },
+ {
+  "key": "10.1117/1.jrs.20.026515",
+  "doi": "10.1117/1.JRS.20.026515",
+  "title": "Data-efficient cereal crop segmentation via mixture-of-expert fusion of vision foundation models",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Tighlit, A.M., Iftene, M., Larabi, M.E.A."
+  ],
+  "venue": "Journal of Applied Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Amir-001/Final-Year-Project",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://doi.org/10.5281/zenodo.17674368",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Tighlit et al., 2026"
+ },
+ {
+  "key": "10.1186/s40537-025-01236-0",
+  "doi": "10.1186/s40537-025-01236-0",
+  "title": "Chat-rgie: precision extraction of rice germplasm data using large language models and prompt engineering",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Wei, Y., Fan, J.-C."
+  ],
+  "venue": "Journal of Big Data",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/mangx/Chat-RGIE",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Wei, Y. and Fan, 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2511.23253",
+  "doi": "10.48550/arXiv.2511.23253",
+  "title": "AgriCoT: A chain-of-thought benchmark for evaluating reasoning in vision-language models for agriculture",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Wen, Y., Li, Q.-M., Ye, Z., Zhang, J.-R., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Reasoning models"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/datasets/AgroCoT/AgroCoT",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Wen et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2403.19839",
+  "doi": "10.48550/arXiv.2403.19839",
+  "title": "The new agronomists: Language models are experts in crop management",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Wu, J., Lai, Z., Chen, S., Tao, R., et al."
+  ],
+  "venue": "arXiv:2403.19839",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/jingwu6/LM_AG",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Wu, J. et al., 2024a"
+ },
+ {
+  "key": "10.1016/j.plaphe.2026.100276",
+  "doi": "10.1016/j.plaphe.2026.100276",
+  "title": "A prototype-augmented few-shot segment anything model for field phenotyping of lettuce germplasm from UAV imagery",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Xia, T., Qi, J., Ban, S., Yuan, M., Li, L., et al."
+  ],
+  "venue": "Plant Phenomics",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://doi.org/10.5281/zenodo.18371750",
+    "kinds": [
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Xia, T. et al., 2026"
+ },
+ {
+  "key": "10.3390/info17101041",
+  "doi": "10.3390/info17101041",
+  "title": "Structured knowledge extraction from wheat variety approval texts via relation-aware in-context learning and progressive knowledge calibration",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Xiong, M.-M., Wang, S., Che, Y.-C., Ma, X.-M., et al."
+  ],
+  "venue": "Information",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://pan.baidu.com/s/1_IRYBeCj2fIQWgk665ujkQ?pwd=kg8s",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Xiong et al., 2026"
+ },
+ {
+  "key": "10.1109/jiot.2024.3472079",
+  "doi": "10.1109/JIOT.2024.3472079",
+  "title": "EHAPZero: Ensemble hierarchical attribute prompting-based zero-shot learning for pest recognition",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Yang, C., Jin, Q.-W., Wang, Y.-W., Zhou, Y.-J., et al."
+  ],
+  "venue": "IEEE Internet of Things Journal",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/jinqiwen/EHAPZero",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yang, C. et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2409.13537",
+  "doi": "10.48550/arXiv.2409.13537",
+  "title": "ShizishanGPT: An agricultural large language model integrating tools and resources",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Yang, S., Liu, Z., Mayer, W."
+  ],
+  "venue": "arXiv:2409.13537",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Zaiwen/CropGPT",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yang, S. et al., 2024a"
+ },
+ {
+  "key": "10.1002/advs.202503926",
+  "doi": "10.1002/advs.202503926",
+  "title": "PlantGPT: An arabidopsis-based intelligent agent that answers questions about plant functional genomics",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Zhang, R.-X., Wang, Y., Yang, W.-Y., Wen, J., et al."
+  ],
+  "venue": "Advanced Science",
+  "domains": [
+   "Agriculture",
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "http://www.plantgpt.icu",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, R.-X. et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2512.24947",
+  "doi": "10.48550/arXiv.2512.24947",
+  "title": "CPJ: Explainable agricultural pest diagnosis via caption-prompt-judge with LLM-judged refinement",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Zhang, W., Fang, T., Lu, L., Wang, L., et al."
+  ],
+  "venue": "arXiv:2512.24947",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/CPJ-Agricultural/CPJ-Agricultural-Diagnosis",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, W. et al., 2025"
+ },
+ {
+  "key": "10.1145/3767308.3836538",
+  "doi": "10.1145/3767308.3836538",
+  "title": "Agri-Cure: Curriculum remedy unlocks GRPO for imbalanced agricultural disease reasoning",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Zhang, W.-T., Xu, M.-K., Jin, K.-Y., Wong, D.F., et al."
+  ],
+  "venue": "Proceedings of the",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Reinforcement fine-tuning (GRPO, RLHF)"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/CPJ-Agricultural/Agri-Cure",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, W.-T. et al., 2026a"
+ },
+ {
+  "key": "10.48550/arxiv.2601.04672",
+  "doi": "10.48550/arXiv.2601.04672",
+  "title": "Agri-R1: Agricultural reasoning for disease diagnosis via automated-synthesis and reinforcement learning",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Zhang, W.-T., Xu, M.-K., Zhang, Q., Li, S.-Y., et al."
+  ],
+  "venue": "arXiv preprint arXiv:2601.04672",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models",
+   "Reinforcement fine-tuning (GRPO, RLHF)"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/CPJ-Agricultural/Agri-R1",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, W.-T. et al., 2026b"
+ },
+ {
+  "key": "10.48550/arxiv.2305.15024",
+  "doi": "10.48550/arXiv.2305.15024",
+  "title": "ChatAgri: Exploring potentials of ChatGPT on cross-linguistic agricultural text classification",
+  "date": "2023-01-01",
+  "year": 2023,
+  "authors": [
+   "Zhao, B., Jin, W., Del Ser, J., Yang, G."
+  ],
+  "venue": "Neurocomputing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/albert-jin/agricultural_textual_classification_ChatGPT",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhao, B. et al., 2023"
+ },
+ {
+  "key": "10.48550/arxiv.2606.18519",
+  "doi": "10.48550/arXiv.2606.18519",
+  "title": "As you wish: Mission planning with formal verification using LLMs in precision agriculture",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Zuzuarregui, M.A., Carpin, S."
+  ],
+  "venue": "arXiv:2606.18519",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Robotics"
+  ],
+  "releases": [
+   {
+    "url": "https://ucmercedrobotics.github.io/asUwish.html",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zuzuarregui and Carpin, 2026"
+ },
+ {
+  "key": "10.3390/app16189081",
+  "doi": "10.3390/app16189081",
+  "title": "Extension of a crop modeling framework for building user and programming interfaces",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Jeon, J.-e., Yun, K."
+  ],
+  "venue": "Applied Sciences",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Model Context Protocol and tool protocols"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/cropbox/Cropbox.jl",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Jeon and Yun, 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2408.02964",
+  "doi": "10.48550/arXiv.2408.02964",
+  "title": "Accuracy and consistency of LLMs in the registered dietitian exam: The impact of prompt engineering and knowledge retrieval",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Azimi, I., Qi, M., Wang, L., Rahmani, A.M., et al."
+  ],
+  "venue": "arXiv:2408.02964",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Reasoning models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/iHealthLab/DietitianExamEval",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Azimi et al., 2024"
+ },
+ {
+  "key": "10.18653/v1/2025.findings-emnlp.911",
+  "doi": "10.18653/v1/2025.findings-emnlp.911",
+  "title": "FoodSafeSum: Enabling natural language processing applications for food safety document summarization and analysis",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Bakagianni, J., Randl, K., Rocchietti, G., Rulli, C., et al."
+  ],
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://doi.org/10.5281/zenodo.17140845",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Bakagianni et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2503.08445",
+  "doi": "10.48550/arXiv.2503.08445",
+  "title": "iPack: Intuitive bin packing with large language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Blei, Y., Krawez, M., Göß, A., Sheela, D.V., et al."
+  ],
+  "venue": "arXiv:2503.08445",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Robotics",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/yblei/ipack",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Blei et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2503.23213",
+  "doi": "10.48550/arXiv.2503.23213",
+  "title": "RECALL-MM: A multimodal dataset of consumer product recalls for risk analysis using computational methods and large language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Bolanos, D., Ataei, M., Grandi, D., Goucher-Lambert, K."
+  ],
+  "venue": "arXiv:2503.23213",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/dianabolanos/RECALL-MM",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Bolanos et al., 2025"
+ },
+ {
+  "key": "10.3390/foods14081355",
+  "doi": "10.3390/foods14081355",
+  "title": "An evaluation of large language models for supplementing a food extrusion dataset",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Bölücü, N., Pennells, J., Yang, H.-C., Rybiński, M., et al."
+  ],
+  "venue": "Foods",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://zenodo.org/records/11171501",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Bölücü et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2506.01608",
+  "doi": "10.48550/arXiv.2506.01608",
+  "title": "EPFL-Smart-Kitchen-30: Densely annotated cooking dataset with 3D kinematics to challenge video and language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Bonnetto, A., Qi, H., Leong, F., Tashkovska, M., et al."
+  ],
+  "venue": "arXiv:2506.01608",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/amathislab/EPFL-Smart-Kitchen",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Bonnetto et al., 2025"
+ },
+ {
+  "key": "10.1038/s41598-026-70322-x",
+  "doi": "10.1038/s41598-026-70322-x",
+  "title": "Synergistic integration of large language models and knowledge graphs for intelligent metabolic pathway design in food synthetic biology",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Cao, Y., Zhu, G.-X., Zhou, J.-Y., Cheng, N."
+  ],
+  "venue": "Scientific Reports",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://doi.org/10.1038/s41598-026-70322-x",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Cao et al., 2026"
+ },
+ {
+  "key": "10.1016/j.eswa.2025.130191",
+  "doi": "10.1016/j.eswa.2025.130191",
+  "title": "Sensory-coKGE: A contextualized knowledge graph embedding framework using language models for converting text-based food attributes into numerical representation",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Chang, Y.-T., Chen, S.-F."
+  ],
+  "venue": "Expert Systems with Applications",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/b05611038/sensory-cokge",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Chang and Chen, 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2609.16809",
+  "doi": "10.48550/arXiv.2609.16809",
+  "title": "SaltyMeta: a curated benchmark and protein language model-informed web tool for salty peptide prediction",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Chen, W.-C., Li, W., He, Y.-N., Yang, Y."
+  ],
+  "venue": "arXiv preprint arXiv:2609.16809",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/chenwanchao/saltymeta-prediction-platform",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Chen, W.-C. et al., 2026b"
+ },
+ {
+  "key": "10.3390/bioengineering13040468",
+  "doi": "10.3390/bioengineering13040468",
+  "title": "Using large language models to generate dietary feedback similar to human experts in weight management: Experiments on real-world scenario data",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Dai, R., Cui, L., Hu, K., An, J.-Y., et al."
+  ],
+  "venue": "Bioengineering",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/Rx-ZJU/LLMDF-EXP",
+    "kinds": [
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Dai, R. et al., 2026"
+ },
+ {
+  "key": "10.1093/bib/bbaf605",
+  "doi": "10.1093/bib/bbaf605",
+  "title": "DeepPlantAllergy: deep learning for explainable prediction of allergenicity in plant proteins",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Dhouib, W., Frikha, F., Rebai, A., Kharrat, N."
+  ],
+  "venue": "Briefings in Bioinformatics",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Lilly-dh/DeepPlantAllergy",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Dhouib et al., 2025"
+ },
+ {
+  "key": "10.1021/acs.jafc.3c07143",
+  "doi": "10.1021/acs.jafc.3c07143",
+  "title": "pLM4Alg: Protein language model-based predictors for allergenic proteins and peptides",
+  "date": "2023-01-01",
+  "year": 2023,
+  "authors": [
+   "Du, Z., Xu, Y., Liu, C., Li, Y."
+  ],
+  "venue": "Journal of Agricultural and Food Chemistry",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/dzjxzyd/pLM4Alg",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Du et al., 2023"
+ },
+ {
+  "key": "10.1007/s00530-024-01354-4",
+  "doi": "10.1007/s00530-024-01354-4",
+  "title": "MTKGR: multi-task knowledge graph reasoning for food and ingredient recognition",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Feng, Z., Li, X., Li, Y."
+  ],
+  "venue": "Multimedia Systems",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/simfeng/MTKGR",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Feng et al., 2024"
+ },
+ {
+  "key": "10.3390/foods15101647",
+  "doi": "10.3390/foods15101647",
+  "title": "Nutrient-aware personalized meal recommendation using structured food knowledge and constraint verification",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Fu, Y., Cai, L., Wu, R., Kang, Y., et al."
+  ],
+  "venue": "Foods",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SerinaRica/CARE",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Fu et al., 2026"
+ },
+ {
+  "key": "bitsandbitesatsemeval2025task9improvingfoodhazarddetectionwi",
+  "doi": "",
+  "title": "BitsAndBites at SemEval-2025 Task 9: Improving food hazard detection with sequential multitask learning and large language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Gensale, A., Benedetto, I., Gioacchini, L., Cagliero, L., Bosca, A."
+  ],
+  "venue": "Proceedings of the",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/auro736/BitsAndBites_SemEval2025_Task9",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Gensale et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2501.14683",
+  "doi": "10.48550/arXiv.2501.14683",
+  "title": "An empirical study on LLM-based classification of requirements-related provisions in food-safety regulations",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Hassani, S., Sabetzadeh, M., Amyot, D."
+  ],
+  "venue": "arXiv:2501.14683",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/LLM-basedLegalCompliance/Food-Safety",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://doi.org/10.5281/zenodo.14641979",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Hassani, S. et al., 2025a"
+ },
+ {
+  "key": "10.1016/j.ab.2024.115701",
+  "doi": "10.1016/j.ab.2024.115701",
+  "title": "Alg-MFDL: A multi-feature deep learning framework for allergenic proteins prediction",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Hu, X., Li, J., Liu, T."
+  ],
+  "venue": "Analytical Biochemistry",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Hupenpen/Alg-MFDL",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Hu, X. et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2407.12843",
+  "doi": "10.48550/arXiv.2407.12843",
+  "title": "NutriBench: A dataset for evaluating large language models on nutrition estimation from meal descriptions",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Hua, A., Dhaliwal, M.P., Burke, R., Pullela, L., Qin, Y."
+  ],
+  "venue": "arXiv:2407.12843",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Reasoning models"
+  ],
+  "releases": [
+   {
+    "url": "https://mehak126.github.io/nutribench.html",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Hua et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2601.18106",
+  "doi": "10.48550/arXiv.2601.18106",
+  "title": "GLEN-Bench: A graph-language based benchmark for nutritional health",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Huang, J.-T., Zhang, Z.-Y., Ma, T.-Y., Li, M.-C., et al."
+  ],
+  "venue": "Transactions on Machine Learning Research",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/JHuang01/GLEN-Benchmark",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Huang et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2306.13986",
+  "doi": "10.48550/arXiv.2306.13986",
+  "title": "Large language models as sous chefs: Revising recipes with GPT-3",
+  "date": "2023-01-01",
+  "year": 2023,
+  "authors": [
+   "Hwang, A., Li, B., Hou, Z., Roth, D."
+  ],
+  "venue": "arXiv:2306.13986",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/manestay/project2-complex-tasks",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Hwang et al., 2023"
+ },
+ {
+  "key": "10.48550/arxiv.2610.27637",
+  "doi": "10.48550/arXiv.2610.27637",
+  "title": "SCODEL: Shared canonical ontology definitions for food entity linking and ontology-grounded recipe knowledge graphs",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Ibrahim, N., Ravikumar, R., Dauda, A., Xu, F.-Q., et al."
+  ],
+  "venue": "arXiv preprint arXiv:2610.27637",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/nuhu-ibrahim/ReciLinkD",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Ibrahim et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2608.04042",
+  "doi": "10.48550/arXiv.2608.04042",
+  "title": "Kitchen robotic manipulation utilizing foundation models",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Jeon, M., Yamsani, S., Kim, J."
+  ],
+  "venue": "arXiv:2608.04042",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Robotics",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://raivlab.github.io/FM_kitchen/",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Jeon et al., 2026"
+ },
+ {
+  "key": "10.3389/frobt.2025.1682031",
+  "doi": "10.3389/frobt.2025.1682031",
+  "title": "Everything robots need to know about cooking actions: creating actionable knowledge graphs to support robotic meal preparation",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Kümpel, M., Scheibl, M., Töberg, J.-P., Hassouna, V., et al."
+  ],
+  "venue": "Frontiers in Robotics and AI",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Robotics",
+   "Neuro-symbolic AI"
+  ],
+  "releases": [
+   {
+    "url": "https://michaelakuempel.github.io/ProductKG/Ontologies.html",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Kümpel et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2411.01996",
+  "doi": "10.48550/arXiv.2411.01996",
+  "title": "Culinary class wars: Evaluating LLMs using ASH in cuisine transfer task",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Lee, H., Gim, M., Park, D., Choi, D., et al."
+  ],
+  "venue": "arXiv:2411.01996",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/dmis-lab/CulinaryASH",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Lee et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2406.11030",
+  "doi": "10.48550/arXiv.2406.11030",
+  "title": "FoodieQA: A multimodal dataset for fine-grained understanding of Chinese food culture",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Li, W., Zhang, X., Li, J., Peng, Q., et al."
+  ],
+  "venue": "arXiv:2406.11030",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/lyan62/FoodieQA",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li, W. et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2610.26538",
+  "doi": "10.48550/arXiv.2610.26538",
+  "title": "Small average error, wide individual error: General-purpose LLMs estimating energy intake from meal photos in a feeding trial",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Li, X."
+  ],
+  "venue": "arXiv:2610.26538",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/xtea/llm-intake-validation",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li, X. 2026"
+ },
+ {
+  "key": "10.1039/d6fo02313d",
+  "doi": "10.1039/d6fo02313d",
+  "title": "Protein language model-assisted screening of bitter peptides from prunus dulcis",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Liu, Y.-Y., Yu, S.-N., Zhang, Y., Zheng, J.-X., et al."
+  ],
+  "venue": "Food &amp; Function",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://doi.org/10.5281/zenodo.19905967",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Liu, Y.-Y. et al., 2026"
+ },
+ {
+  "key": "10.1016/j.jmb.2025.169005",
+  "doi": "10.1016/j.jmb.2025.169005",
+  "title": "iBitter-GRE: A novel stacked bitter peptide predictor with ESM-2 and multi-view features",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Lv, J., Geng, A., Pan, Z., Wei, L., et al."
+  ],
+  "venue": "Journal of Molecular Biology",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/EuclidLv/iBitter-GRE",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Lv et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.1810.06553",
+  "doi": "10.48550/arXiv.1810.06553",
+  "title": "Recipe1M+: A dataset for learning cross-modal embeddings for cooking recipes and food images",
+  "date": "2021-01-01",
+  "year": 2021,
+  "authors": [
+   "Marin, J., Biswas, A., Ofli, F., Hynes, N., Salvador, A., Aytar, Y., Weber, I., Torralba, A."
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "http://im2recipe.csail.mit.edu",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Marin et al., 2021"
+ },
+ {
+  "key": "10.48550/arxiv.2310.00163",
+  "doi": "10.48550/arXiv.2310.00163",
+  "title": "Cook2LTL: Translating cooking recipes to LTL formulae using large language models",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Mavrogiannis, A., Mavrogiannis, C., Aloimonos, Y."
+  ],
+  "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Robotics"
+  ],
+  "releases": [
+   {
+    "url": "",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper states a release but gives no link",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mavrogiannis et al., 2024"
+ },
+ {
+  "key": "10.1109/wi-iat62293.2024.00130",
+  "doi": "10.1109/WI-IAT62293.2024.00130",
+  "title": "Enabling next-generation smart homes through bert personalized food recommendations - RecipeBERT",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Mereddy, D., Beedareddy, J."
+  ],
+  "venue": "2024 IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT)",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning",
+   "Distillation"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/DivyaMereddy007/RecipeBert",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mereddy and Beedareddy, 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2103.16107",
+  "doi": "10.48550/arXiv.2103.16107",
+  "title": "Large scale visual food recognition",
+  "date": "2023-01-01",
+  "year": 2023,
+  "authors": [
+   "Min, W., Wang, Z., Liu, Y., Luo, M., Kang, L., Wei, X., Wei, X., Jiang, S."
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "http://123.57.42.89/FoodProject.html",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Min et al., 2023"
+ },
+ {
+  "key": "10.48550/arxiv.2408.16889",
+  "doi": "10.48550/arXiv.2408.16889",
+  "title": "LLaVA-Chef: A multi-modal generative model for food recipes",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Mohbat, F., Zaki, M.J."
+  ],
+  "venue": "Proceedings of the",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/mohbattharani/LLaVA-Chef",
+    "kinds": [
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mohbat and Zaki, 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2505.14629",
+  "doi": "10.48550/arXiv.2505.14629",
+  "title": "KERL: Knowledge-enhanced personalized recipe recommendation using large language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Mohbat, F., Zaki, M.J."
+  ],
+  "venue": "arXiv:2505.14629",
+  "domains": [
+   "Agriculture",
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/mohbattharani/KERL",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mohbat and Zaki, 2025"
+ },
+ {
+  "key": "10.1186/s13321-025-01078-1",
+  "doi": "10.1186/s13321-025-01078-1",
+  "title": "xBitterT5: an explainable transformer-based framework with multimodal inputs for identifying bitter-taste peptides",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Nguyen, N.D.H., Pham, N.T., Tran, D., Wei, L., et al."
+  ],
+  "venue": "Journal of Cheminformatics",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/cbbl-skku-org/xBitterT5",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Nguyen et al., 2025"
+ },
+ {
+  "key": "10.1007/s44163-026-02254-4",
+  "doi": "10.1007/s44163-026-02254-4",
+  "title": "Carbon aware checkout for real time basket emissions optimization in online grocery shopping",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Poreddy, K., Sahu, A., Mukherjee, S., Basavaraju, B.K."
+  ],
+  "venue": "Discover Artificial Intelligence",
+  "domains": [
+   "Agriculture",
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning",
+   "Model Context Protocol and tool protocols"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/learningdebunked/eco-racs",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Poreddy et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2410.19756",
+  "doi": "10.48550/arXiv.2410.19756",
+  "title": "A SAM based tool for semi-automatic food annotation",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Rahman, L.A., Papathanail, I., Brigato, L., Mougiakakou, S."
+  ],
+  "venue": "arXiv:2410.19756",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/lubnaa25/MealSAM_food_annotator",
+    "kinds": [
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Rahman et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.1812.06164",
+  "doi": "10.48550/arXiv.1812.06164",
+  "title": "Inverse cooking: Recipe generation from food images",
+  "date": "2019-01-01",
+  "year": 2019,
+  "authors": [
+   "Salvador, A., Drozdzal, M., Giro-i-Nieto, X., Romero, A."
+  ],
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/facebookresearch/inversecooking",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Salvador et al., 2019"
+ },
+ {
+  "key": "10.1093/biomethods/bpaf040",
+  "doi": "10.1093/biomethods/bpaf040",
+  "title": "AllerTrans: a deep learning method for predicting the allergenicity of protein sequences",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Sarlakifar, F., Malek, H., Fard, N.A., Khotanlou, Z."
+  ],
+  "venue": "Biology Methods and Protocols",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/faezesarlakifar/AllerTrans",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Sarlakifar et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2412.04922",
+  "doi": "10.48550/arXiv.2412.04922",
+  "title": "Large language models for ingredient substitution in food recipes using supervised fine-tuning and direct preference optimization",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Senath, T., Athukorala, K., Costa, R., Ranathunga, S., et al."
+  ],
+  "venue": "arXiv:2412.04922",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Reinforcement fine-tuning (GRPO, RLHF)"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Code-Triad/Large-Language-Models-for-Ingredient-Substitution",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Senath et al., 2024"
+ },
+ {
+  "key": "10.1101/2025.06.22.660976",
+  "doi": "10.1101/2025.06.22.660976",
+  "title": "AllerStack: Predicting allergenic proteins with a stacked ensemble approach",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Sharma, H., Goel, M., Sahu, D., Sayed, M., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://cosylab.iiitd.edu.in/allerstack/",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Sharma et al., 2025"
+ },
+ {
+  "key": "10.1145/3767308.3835535",
+  "doi": "10.1145/3767308.3835535",
+  "title": "Beyond visual regression: Anchoring multimodal residual correction with domain priors for robust calorie estimation",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Song, H., Zhu, J.-H., Liu, T., Lu, X.-P., et al."
+  ],
+  "venue": "Proceedings of the",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Agentyzu/MARC",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Song, H. et al., 2026b"
+ },
+ {
+  "key": "10.1145/3767308.3836427",
+  "doi": "10.1145/3767308.3836427",
+  "title": "Closing the visual-culinary gap: Towards hallucination-free recipe generation with entropy-aware logic constraints",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Song, H., Zhu, J.-H., Liu, T., Shan, X., et al."
+  ],
+  "venue": "Proceedings of the",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Agentyzu/Recipe",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Song, H. et al., 2026a"
+ },
+ {
+  "key": "10.1038/s41538-026-00942-0",
+  "doi": "10.1038/s41538-026-00942-0",
+  "title": "De novo design and experimental characterization of bitter peptides",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Steuer, A., Ferri, F., Eckrich, L., Heidenkampf, J., et al."
+  ],
+  "venue": "npj Science of Food",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/DiPizio-Lab/bitter-peptide-design",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Steuer et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2103.03375",
+  "doi": "10.48550/arXiv.2103.03375",
+  "title": "Nutrition5k: Towards automatic nutritional understanding of generic food",
+  "date": "2021-01-01",
+  "year": 2021,
+  "authors": [
+   "Thames, Q., Karpur, A., Norris, W., Xia, F., Panait, L., Weyand, T., Sim, J."
+  ],
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/google-research-datasets/Nutrition5k",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Thames et al., 2021"
+ },
+ {
+  "key": "10.48550/arxiv.2610.02599",
+  "doi": "10.48550/arXiv.2610.02599",
+  "title": "TasteBench: Multimodal benchmark for sensory prediction, from molecules to sustainable foods",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Thomas, A.T., Patnaik, S., Cotto, C., Sanchez-Lengeling, B."
+  ],
+  "venue": "arXiv:2610.02599",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/Food-Intelligence-Lab/tastebench",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Thomas et al., 2026a"
+ },
+ {
+  "key": "10.48550/arxiv.2609.03967",
+  "doi": "10.48550/arXiv.2609.03967",
+  "title": "Investigating the ability of large language models to analyze recipes for diabetes",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Venkataramanan, R., Luthra, A., Nadimuthu, V., Sheth, A."
+  ],
+  "venue": "arXiv:2609.03967",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/revathyramanan/LLMs-Diabetes-Recipes",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Venkataramanan et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2410.12705",
+  "doi": "10.48550/arXiv.2410.12705",
+  "title": "WorldCuisines: A massive-scale benchmark for multilingual and multicultural visual question answering on global cuisines",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Winata, G.I., Hudi, F., Irawan, P.A., Anugraha, D., et al."
+  ],
+  "venue": "arXiv:2410.12705",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [],
+  "releases": [
+   {
+    "url": "https://github.com/worldcuisines/worldcuisines",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/datasets/worldcuisines/vqa",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Winata et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2508.10541",
+  "doi": "10.48550/arXiv.2508.10541",
+  "title": "Driving accurate allergen prediction with protein language models and generalization-focused evaluation",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Wong, B.S.-H., Kim, J., Fung, S.-H., Xiong, Q., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/brianwongsh/Applm",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Wong et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2606.08948",
+  "doi": "10.48550/arXiv.2606.08948",
+  "title": "NutriMLLM: Multimodal large language models for dietary micronutrient analysis",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Yan, R., Wang, M., Lu, J., Liu, D., Hu, X., Luo, H."
+  ],
+  "venue": "arXiv:2606.08948",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper states a release but gives no link",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yan, R. et al., 2026"
+ },
+ {
+  "key": "10.1039/d6ay00214e",
+  "doi": "10.1039/d6ay00214e",
+  "title": "An image-based food quality analysis framework driven by large language models",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Yin, X.-Y., Wu, H.-L., Han, L.-Y., He, Y., et al."
+  ],
+  "venue": "Analytical Methods",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/TWang-93/Image-feature-processor-for-LLMs",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yin et al., 2026"
+ },
+ {
+  "key": "10.1109/bigdata62323.2024.10825369",
+  "doi": "10.1109/BigData62323.2024.10825369",
+  "title": "LLM-based hierarchical label annotation for foodborne illness detection on social media",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Zhang, D., Hu, R., Tao, D., Feng, H., et al."
+  ],
+  "venue": "2024 IEEE International Conference on Big Data (BigData)",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/zdy93/ICL2FID",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, D. et al., 2024"
+ },
+ {
+  "key": "10.1186/s12859-024-05974-5",
+  "doi": "10.1186/s12859-024-05974-5",
+  "title": "DeepBP: Ensemble deep learning strategy for bioactive peptide prediction",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Zhang, M., Zhou, J.-R., Wang, X.-H., Wang, X.-N., et al."
+  ],
+  "venue": "BMC Bioinformatics",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Protein language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Zhou-Jianren/bioactive-peptides",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, M. et al., 2024"
+ },
+ {
+  "key": "adaptiveconstraintrelaxationinpersonalizednutritionrecommend",
+  "doi": "",
+  "title": "Adaptive constraint relaxation in personalized nutrition recommendations: An LLM-driven knowledge graph retrieval approach",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Zhang, P., Fnu, M., Song, Y.-T., Seneviratne, O., et al."
+  ],
+  "venue": "AMIA Annual Symposium Proceedings",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/zpf0117b2/adaptiveRetrieval",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhang, P. et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2606.04986",
+  "doi": "10.48550/arXiv.2606.04986",
+  "title": "Food-R1: A unified multi-task food vision-language model with reinforcement learning",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Zhu, Y., Li, Y.-K., Zhu, W.-Q., Jiang, H., et al."
+  ],
+  "venue": "arXiv preprint",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Reasoning models",
+   "Reinforcement fine-tuning (GRPO, RLHF)"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/hustvl/Food-R1",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/collections/zy12123/food-r1",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zhu, Y. et al., 2026"
+ },
+ {
+  "key": "10.1038/s41538-025-00474-z",
+  "doi": "10.1038/s41538-025-00474-z",
+  "title": "A chemical language model for molecular taste prediction",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Zimmermann, Y., Sieben, L., Seng, H., Pestlin, P., et al."
+  ],
+  "venue": "npj Science of Food",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/fart-lab/fart",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Zimmermann et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2507.17859",
+  "doi": "10.48550/arXiv.2507.17859",
+  "title": "FishDet-M: A unified large-scale benchmark for robust fish detection and CLIP-guided model selection in diverse aquatic visual domains",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Abujabal, M., Saoud, L.S., Hussain, I."
+  ],
+  "venue": "arXiv:2507.17859",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Robotics",
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://lyessaadsaoud.github.io/FishDet-M/",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Abujabal et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2609.31679",
+  "doi": "10.48550/arXiv.2609.31679",
+  "title": "Toward AI-assisted poultry coccidiosis diagnosis: Evaluating Gemini and BiomedParse on Eimeria microscopy images",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Alsalama, A., Kubba, A., Abu Talib, M."
+  ],
+  "venue": "arXiv:2609.31679",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper states a release but gives no link",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Alsalama et al., 2026"
+ },
+ {
+  "key": "10.1109/icce67443.2026.11449608",
+  "doi": "10.1109/ICCE67443.2026.11449608",
+  "title": "Off-line LLM-based decision tool to help advise farmers in sub-saharan africa for enhanced decision making in goat care",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Calas, J., Barry, G., Campbell, A.G."
+  ],
+  "venue": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Jocelin3/Goat-Health-Assessment-App",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Calas et al., 2026"
+ },
+ {
+  "key": "10.1002/rob.70123",
+  "doi": "10.1002/rob.70123",
+  "title": "Real-time behavior recognition using a legged robot for animal–robot interaction",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Fazzari, E., Romano, D., Falchi, F., Stefanini, C."
+  ],
+  "venue": "Journal of Field Robotics",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/edofazza/behavior-recognition-animal-robot-interaction",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Fazzari et al., 2025"
+ },
+ {
+  "key": "10.1016/j.aquaculture.2026.744459",
+  "doi": "10.1016/j.aquaculture.2026.744459",
+  "title": "Automatic visual detection of fish in recirculated aquaculture systems using the Segment Anything Model",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Fred, H., Krogh, M.A., Jensen, B.B., Ruotsalainen, L., et al."
+  ],
+  "venue": "Aquaculture",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://doi.org/10.5281/zenodo.15528511",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Fred et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2410.21480",
+  "doi": "10.48550/arXiv.2410.21480",
+  "title": "AiSciVision: A framework for specializing large multimodal models in scientific image classification",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Hogan, B., Kabra, A., Pacheco, F.S., Greenstreet, L., et al."
+  ],
+  "venue": "arXiv:2410.21480",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Agents and agentic AI",
+   "Retrieval-augmented generation and knowledge graphs",
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/gomes-lab/AiSciVision",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Hogan et al., 2024"
+ },
+ {
+  "key": "10.21203/rs.3.rs-7579108/v1",
+  "doi": "10.21203/rs.3.rs-7579108/v1",
+  "title": "Cross-species functional variant classification using the evo 2 genomic language model: implications for farm animal genetics and breeding",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Jiang, J., Tiezzi, F., Maltecca, C."
+  ],
+  "venue": "https://doi.org/10.21203/rs.3.rs-7579108/v1",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Genomic language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/jiang18/evo2-omia",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Jiang et al., 2025"
+ },
+ {
+  "key": "10.1038/s41598-025-98078-w",
+  "doi": "10.1038/s41598-025-98078-w",
+  "title": "PoulTrans: a transformer-based model for accurate poultry condition assessment",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Li, J., Yang, B., Chen, J., Liu, J., et al."
+  ],
+  "venue": "Scientific Reports",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/kong1107800/PoulTrans",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li, J. et al., 2025b"
+ },
+ {
+  "key": "10.3390/ani15111546",
+  "doi": "10.3390/ani15111546",
+  "title": "PBC-Transformer: Interpreting poultry behavior classification using image caption generation techniques",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Li, J., Yang, B., Liu, J., Amevor, F.K., et al."
+  ],
+  "venue": "Animals",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/reinchow/PBC-Transformer",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li, J. et al., 2025a"
+ },
+ {
+  "key": "10.1109/access.2026.3682945",
+  "doi": "10.1109/ACCESS.2026.3682945",
+  "title": "A comparative study of small and large language models for low-resource poultry disease knowledge extraction",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Li, W., Wang, X., Li, Q., Gao, R., et al."
+  ],
+  "venue": "IEEE Access",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Quantization and edge deployment",
+   "Reasoning models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/George1314/poultry-entity-relation-extraction",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li et al., 2026"
+ },
+ {
+  "key": "10.1007/s10499-025-01942-9",
+  "doi": "10.1007/s10499-025-01942-9",
+  "title": "Research on fine-tuning strategies for text classification in the aquaculture domain by combining deep learning and large language models",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Li, Z., Zhang, S., Cao, P., Zhang, J., et al."
+  ],
+  "venue": "Aquaculture International",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/OceanicKnowledgeHub/Aquatic-Disease-Text-Categorization",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Li, Z. et al., 2025"
+ },
+ {
+  "key": "10.48550/arxiv.2510.09203",
+  "doi": "10.48550/arXiv.2510.09203",
+  "title": "Cattle-CLIP: A multimodal framework for dairy cattle behaviour recognition from video",
+  "date": "2025-01-01",
+  "year": 2025,
+  "authors": [
+   "Liu, H., Gao, J., Baran, D., Montout, A.X., et al."
+  ],
+  "venue": "arXiv:2510.09203",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SolanLiu25/Dataset_CattleBehaviours6",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Liu, H. et al., 2025"
+ },
+ {
+  "key": "10.1093/bib/bbag319",
+  "doi": "10.1093/bib/bbag319",
+  "title": "Porcine MutBERT: a family of lightweight genomic foundation models for functional element prediction in pigs",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Long, W.-C., Zhou, R., Wei, W.-K., Zhang, X.-A., et al."
+  ],
+  "venue": "Briefings in Bioinformatics",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/ai4nucleome/pigmutbert",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Long et al., 2026"
+ },
+ {
+  "key": "10.64898/2026.03.09.710409",
+  "doi": "10.64898/2026.03.09.710409",
+  "title": "FishMamba-1: A linear-complexity foundation model for deciphering polyploid cyprinid genomes",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Lu, S., Fang, C., Wang, C., Qian, Y., et al."
+  ],
+  "venue": "bioRxiv preprint",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/lu1000001/FishMamba",
+    "kinds": [
+     "code",
+     "data",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Lu et al., 2026"
+ },
+ {
+  "key": "10.1098/rsif.2021.0921",
+  "doi": "10.1098/rsif.2021.0921",
+  "title": "Automated identification of chicken distress vocalisations using deep learning models",
+  "date": "2022-01-01",
+  "year": 2022,
+  "authors": [
+   "Mao, A., Giraudet, C.S.E., Liu, K., De Almeida Nolasco, I., et al."
+  ],
+  "venue": "Journal of the Royal Society Interface",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Max-1234-hub/light-VGG11",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Mao et al., 2022"
+ },
+ {
+  "key": "10.48550/arxiv.2602.19022",
+  "doi": "10.48550/arXiv.2602.19022",
+  "title": "An interpretable framework using foundation models for fish sex identification",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Miao, Z., Hung, T.-C."
+  ],
+  "venue": "arXiv:2602.19022",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/zhengmiao1/Fish_sex_identification",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": false
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Miao and Hung, 2026"
+ },
+ {
+  "key": "10.1109/wacv61042.2026.00151",
+  "doi": "10.1109/wacv61042.2026.00151",
+  "title": "OpenCowID: Zero-shot visual identification of dairy cows",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Prabhune, O., Kim, Y."
+  ],
+  "venue": "2026 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/neis-lab/OpenCowID",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Prabhune and Kim, 2026"
+ },
+ {
+  "key": "10.1109/access.2026.3688544",
+  "doi": "10.1109/ACCESS.2026.3688544",
+  "title": "CowNet-AI: A multi-agent decision support framework for social network–driven welfare insights in dairy cattle",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Shanteer, T., Sailunaz, K., Neethirajan, S."
+  ],
+  "venue": "IEEE Access",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Agents and agentic AI",
+   "Hallucination detection",
+   "Model Context Protocol and tool protocols"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/mooanalytica/COWNET-AI-MultiAgent",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Shanteer et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2404.15700",
+  "doi": "10.48550/arXiv.2404.15700",
+  "title": "MAS-SAM: Segment any marine animal with aggregated features",
+  "date": "2024-01-01",
+  "year": 2024,
+  "authors": [
+   "Yan, T., Wan, Z., Deng, X., Zhang, P., et al."
+  ],
+  "venue": "arXiv:2404.15700",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Drchip61/MAS-SAM",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yan et al., 2024"
+ },
+ {
+  "key": "10.48550/arxiv.2603.17782",
+  "doi": "10.48550/arXiv.2603.17782",
+  "title": "Exploring parameter-efficient fine-tuning (PEFT) of billion-parameter vision models with QLoRA and DoRA: insights into generalization for limited-data image classification under a 98:1 test-to-train regime",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Yang, H., Sharma, S., Liu, E., Hostens, M."
+  ],
+  "venue": "arXiv:2603.17782",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Foundation models"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Bovi-analytics/PEFT-Fine-tuning-cows",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/collections/Sonam5/peft4cows",
+    "kinds": [
+     "code",
+     "weights"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yang, H. et al., 2026"
+ },
+ {
+  "key": "10.1016/j.compag.2026.112532",
+  "doi": "10.1016/j.compag.2026.112532",
+  "title": "Text-to-video multi-moment retrieval via adaptive virtual token alignment for pig behavior analysis in surveillance videos",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Yang, J.-F., Bai, X.-N., Wei, Y.-O.M.G., Liu, D., et al."
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Video generation"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Kevinyang2/PigBDMR",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yang, J.-F. et al., 2026"
+ },
+ {
+  "key": "10.48550/arxiv.2602.15962",
+  "doi": "10.48550/arXiv.2602.15962",
+  "title": "Automated re-identification of Holstein-Friesian cattle in dense crowds",
+  "date": "2026-01-01",
+  "year": 2026,
+  "authors": [
+   "Yu, P., Burghardt, T., Dowsey, A.W., Campbell, N.W."
+  ],
+  "venue": "arXiv:2602.15962",
+  "domains": [
+   "Agriculture",
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "releases": [
+   {
+    "url": "https://phoenix4582.github.io/dazzlecows.github.io/",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper (checked by hand)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "verified (checked by hand)",
+  "cite": "Yu et al., 2026"
+ }
+]

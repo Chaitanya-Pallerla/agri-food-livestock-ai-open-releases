@@ -1,0 +1,43 @@
+name: Update open-release list
+
+on:
+  schedule:
+    - cron: "17 4 */5 * *"      # 04:17 UTC on days 1, 6, 11, 16, 21, 26 and 31 of each month
+  workflow_dispatch:            # also runnable by hand from the Actions tab
+    inputs:
+      window_days:
+        description: "Search the last N days (default from config)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Search new studies
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/search.py ${{ github.event.inputs.window_days }}
+      - name: Detect releases and check links
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/detect.py
+      - name: Build pages
+        run: python scripts/build.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update open-release list ($(date -u +%Y-%m-%d))"
+          git push
