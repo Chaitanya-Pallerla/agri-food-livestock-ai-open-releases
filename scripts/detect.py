@@ -123,6 +123,8 @@ def pdf_text(urls):
 
 
 def arxiv_id(item):
+    if item.get("arxiv"):
+        return item["arxiv"]
     m = re.search(r"arxiv\.(\d{4}\.\d{4,5})", (item.get("doi") or "").lower())
     if m:
         return m.group(1)

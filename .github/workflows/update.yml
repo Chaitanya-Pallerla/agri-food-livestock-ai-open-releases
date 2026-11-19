@@ -26,6 +26,7 @@ jobs:
       - name: Search new studies
         env:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: python scripts/search.py ${{ github.event.inputs.window_days }}
       - name: Detect releases and check links
         env:

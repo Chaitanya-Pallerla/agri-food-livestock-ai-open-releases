@@ -23,9 +23,13 @@ Browse: [by technology](docs/by-technology.md) · download as [CSV](data/studies
 
 Every 5 days a GitHub Action runs three scripts, with no manual step:
 
-1. **Search** ([scripts/search.py](scripts/search.py)) queries [OpenAlex](https://openalex.org) for studies published in the
+1. **Search** ([scripts/search.py](scripts/search.py)) queries five free, regularly updated sources for studies from the
    last three weeks whose title or abstract matches a domain term *and* a technology term from
-   [config/terms.json](config/terms.json). Reviews and surveys are excluded.
+   [config/terms.json](config/terms.json): [Crossref](https://www.crossref.org) (nearly every DOI-registered paper,
+   filtered by the date it was indexed, so late-indexed papers are not missed), [arXiv](https://arxiv.org) (preprints),
+   [Europe PMC](https://europepmc.org) (PubMed plus bioRxiv and medRxiv), [OpenAlex](https://openalex.org) and, when a key
+   is configured, [Semantic Scholar](https://www.semanticscholar.org). Records are merged by DOI, arXiv id or title, and
+   each source is optional: if one is unavailable the others still run. Reviews and surveys are excluded.
 2. **Detect releases** ([scripts/detect.py](scripts/detect.py)) looks for the study's *own* code, data or weights in the
    abstract and the open-access full text, in Hugging Face models and datasets tagged with the paper's arXiv id, in Zenodo
    records linked to its DOI and, as a last resort, in GitHub repositories whose README quotes the paper title. Links to
