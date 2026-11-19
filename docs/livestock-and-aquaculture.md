@@ -1,9 +1,10 @@
 # Livestock and aquaculture: AI studies with open code, data or model weights
 
-22 studies, newest first. Last updated 2026-11-19. [Back to overview](../README.md)
+23 studies, newest first. Last updated 2026-11-19. [Back to overview](../README.md)
 
 | Year | Study | First author | Technologies | Code | Data | Weights | Links | Status |
 |---|---|---|---|:-:|:-:|:-:|---|---|
+| 2026 | [Cattle-CLIP: A Multimodal Framework for Dairy Cattle Behaviour Recognition from Video](https://doi.org/10.3390/agriengineering8100410) | Huimin Liu | Vision-language models | ✅ |  |  | [GitHub](https://github.com/SolanLiu25/Dataset_CattleBehaviours6) ★5<br>[GitHub](https://github.com/pstAmbition/DailyArXiv_Multimodal) ★19 | auto |
 | 2026 | [Toward AI-assisted poultry coccidiosis diagnosis: Evaluating Gemini and BiomedParse on Eimeria microscopy images](https://doi.org/10.48550/arXiv.2609.31679) | Alsalama | Large language models, Vision-language models | ✅ |  |  | not linked in paper | ✔ verified |
 | 2026 | [Text-to-video multi-moment retrieval via adaptive virtual token alignment for pig behavior analysis in surveillance videos](https://doi.org/10.1016/j.compag.2026.112532) | Yang | Video generation | ✅ |  |  | [GitHub](https://github.com/Kevinyang2/PigBDMR) | ✔ verified |
 | 2026 | [Porcine MutBERT: a family of lightweight genomic foundation models for functional element prediction in pigs](https://doi.org/10.1093/bib/bbag319) | Long | Foundation models | ✅ | ✅ |  | [GitHub](https://github.com/ai4nucleome/pigmutbert) | ✔ verified |

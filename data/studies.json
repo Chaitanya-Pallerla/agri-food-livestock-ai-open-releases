@@ -3884,5 +3884,2678 @@
   "checked": "2026-11-19",
   "status": "verified (checked by hand)",
   "cite": "Yu et al., 2026"
+ },
+ {
+  "key": "10.1093/bioinformatics/btag781",
+  "doi": "10.1093/bioinformatics/btag781",
+  "arxiv": null,
+  "title": "pxGPT: a schema-constrained multimodal large language model framework for plant phenotyping",
+  "date": "2026-10",
+  "authors": [
+   "Po-Xing Zheng",
+   "Jheng-Yan Ou",
+   "Yu-Lin Wu",
+   "Ruei-Shiuan Wang",
+   "Ting-Li Wu",
+   "Te-Chang Hsu",
+   "Yao-Cheng Lin"
+  ],
+  "venue": "Bioinformatics",
+  "pdf": [
+   "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btag781/72201337/btag781.pdf",
+   "https://academic.oup.com/bioinformatics/article-pdf/42/10/btag781/72201337/btag781.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1093/bioinformatics/btag781"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Vision-language models",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/YaoChengLab/pxgpt",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2026-10-24"
+   },
+   {
+    "url": "https://doi.org/10.5281/zenodo.22931745",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true
+   },
+   {
+    "url": "https://doi.org/10.5281/zenodo.22907554",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs12234000",
+  "doi": "10.3390/rs12234000",
+  "arxiv": null,
+  "title": "Crop Yield Prediction Using Multitemporal UAV Data and Spatio-Temporal Deep Learning Models",
+  "date": "2020-12-7",
+  "authors": [
+   "Petteri Nevavuori",
+   "Nathaniel Narra",
+   "Petri Linna",
+   "Tarmo Lipping"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs12234000"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/shtgl/crop_health_nn",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2025-12-24"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1109/iccv51701.2025.00716",
+  "doi": "10.1109/iccv51701.2025.00716",
+  "arxiv": null,
+  "title": "AgroBench: Vision-Language Model Benchmark in Agriculture",
+  "date": "2025-10-19",
+  "authors": [
+   "Risa Shinoda",
+   "Nakamasa Inoue",
+   "Hirokatsu Kataoka",
+   "Masaki Onishi",
+   "Yoshitaka Ushiku"
+  ],
+  "venue": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1109/iccv51701.2025.00716"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/dahlian00/AgroBench",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 20,
+    "license": null,
+    "updated": "2025-12-26"
+   },
+   {
+    "url": "https://github.com/panilya/awesome-ai-benchmarks",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 53,
+    "license": "Apache-2.0",
+    "updated": "2026-08-28"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs13050858",
+  "doi": "10.3390/rs13050858",
+  "arxiv": null,
+  "title": "Automated Machine Learning for High-Throughput Image-Based Plant Phenotyping",
+  "date": "2021-2-25",
+  "authors": [
+   "Joshua C.O. Koh",
+   "German Spangenberg",
+   "Surya Kant"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs13050858"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/pritomsh/Automated-Machine-Learning-with-Neural-Architecture-Search-Research-Papers",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": "MIT",
+    "updated": "2023-07-16"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs13132622",
+  "doi": "10.3390/rs13132622",
+  "arxiv": null,
+  "title": "EasyIDP: A Python Package for Intermediate Data Processing in UAV-Based Plant Phenotyping",
+  "date": "2021-7-3",
+  "authors": [
+   "Haozhou Wang",
+   "Yulin Duan",
+   "Yun Shi",
+   "Yoichiro Kato",
+   "Seishi Ninomiya",
+   "Wei Guo"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs13132622"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/UTokyo-FieldPhenomics-Lab/EasyIDP",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 61,
+    "license": null,
+    "updated": "2026-09-18"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs17183227",
+  "doi": "10.3390/rs17183227",
+  "arxiv": null,
+  "title": "A Spatially Comprehensive Water Balance Model for Starch Potato from Combining Multispectral Ground Station and Remote Sensing Data in Precision Agriculture",
+  "date": "2025-9-18",
+  "authors": [
+   "Thomas Piernicke",
+   "Matthias Kunz",
+   "Sibylle Itzerott",
+   "Jan Lukas Wenzel",
+   "Julia Pöhlitz",
+   "Christopher Conrad"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs17183227"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://zenodo.org/records/18997120",
+    "kinds": [
+     "code"
+    ],
+    "source": "Zenodo (linked to DOI)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.isprsjprs.2018.09.008",
+  "doi": "10.1016/j.isprsjprs.2018.09.008",
+  "arxiv": null,
+  "title": "UAV-based multispectral remote sensing for precision agriculture: A comparison between different cameras",
+  "date": "2018-12",
+  "authors": [
+   "Lei Deng",
+   "Zhihui Mao",
+   "Xiaojuan Li",
+   "Zhuowei Hu",
+   "Fuzhou Duan",
+   "Yanan Yan"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.isprsjprs.2018.09.008"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://zenodo.org/records/15568749",
+    "kinds": [
+     "data"
+    ],
+    "source": "Zenodo (linked to DOI)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs16173290",
+  "doi": "10.3390/rs16173290",
+  "arxiv": null,
+  "title": "Delving into the Potential of Deep Learning Algorithms for Point Cloud Segmentation at Organ Level in Plant Phenotyping",
+  "date": "2024-9-4",
+  "authors": [
+   "Kai Xie",
+   "Jianzhong Zhu",
+   "He Ren",
+   "Yinghua Wang",
+   "Wanneng Yang",
+   "Gang Chen",
+   "Chengda Lin",
+   "Ruifang Zhai"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs16173290"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/xhzau/Plant-Point-Cloud",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2024-11-28"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs12152392",
+  "doi": "10.3390/rs12152392",
+  "arxiv": null,
+  "title": "Use of UAS Multispectral Imagery at Different Physiological Stages for Yield Prediction and Input Resource Optimization in Corn",
+  "date": "2020-7-26",
+  "authors": [
+   "Razieh Barzin",
+   "Rohit Pathak",
+   "Hossein Lotfi",
+   "Jac Varco",
+   "Ganesh C. Bora"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs12152392"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/kwankhaosiva-repo/Corn-Yield-Prediction-with-Geospatial-AI-old",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2025-12-08"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1109/icoicet68875.2026.11761423",
+  "doi": "10.1109/icoicet68875.2026.11761423",
+  "arxiv": null,
+  "title": "SMART-AgRAG: Retrieval-Augmented Generation for Precision Agriculture",
+  "date": "2026-9",
+  "authors": [
+   "Rajkumar Sadashiv Jagdale",
+   "Kundan Sagar Bedmutha",
+   "Madhuri Pant"
+  ],
+  "venue": "2026 International Conference on Innovations in Computing and Emerging Technologies (ICoICET)",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1109/icoicet68875.2026.11761423"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/kundanbedmutha/SMART-AgRAG",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 1,
+    "license": "MIT",
+    "updated": "2026-09-09"
+   },
+   {
+    "url": "https://github.com/kundanbedmutha/kundanbedmutha",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-10-01"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.rse.2026.115234",
+  "doi": "10.1016/j.rse.2026.115234",
+  "arxiv": null,
+  "title": "AgriFM: A multi-source temporal remote sensing foundation model for Agriculture mapping",
+  "date": "2026-3",
+  "authors": [
+   "Wenyuan Li",
+   "Shunlin Liang",
+   "Keyan Chen",
+   "Yongzhe Chen",
+   "Han Ma",
+   "Jianglei Xu",
+   "Yichuan Ma",
+   "Yuxiang Zhang",
+   "Shikang Guan",
+   "Husheng Fang",
+   "Zhenwei Shi"
+  ],
+  "venue": "Remote Sensing of Environment",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.rse.2026.115234"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Foundation models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/flyakon/AgriFM",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 79,
+    "license": "Apache-2.0",
+    "updated": "2026-06-16"
+   },
+   {
+    "url": "https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 1981,
+    "license": null,
+    "updated": "2026-05-07"
+   },
+   {
+    "url": "https://github.com/YujinJung-Lab/agrifm-capstone",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-07-15"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs14195045",
+  "doi": "10.3390/rs14195045",
+  "arxiv": null,
+  "title": "Rice Yield Prediction and Model Interpretation Based on Satellite and Climatic Indicators Using a Transformer Method",
+  "date": "2022-10-10",
+  "authors": [
+   "Yuanyuan Liu",
+   "Shaoqiang Wang",
+   "Jinghua Chen",
+   "Bin Chen",
+   "Xiaobo Wang",
+   "Dongze Hao",
+   "Leigang Sun"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs14195045"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/urushan78/Crop-Yield-Backend",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2024-05-30"
+   },
+   {
+    "url": "https://github.com/urushan78/Crop-Yield-Frontend",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2024-05-30"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1002/rob.21869",
+  "doi": "10.1002/rob.21869",
+  "arxiv": null,
+  "title": "Transfer learning between crop types for semantic segmentation of crops versus weeds in precision agriculture",
+  "date": "2019-3-28",
+  "authors": [
+   "Petra Bosilj",
+   "Erchan Aptoula",
+   "Tom Duckett",
+   "Grzegorz Cielniak"
+  ],
+  "venue": "Journal of Field Robotics",
+  "pdf": [
+   "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Frob.21869",
+   "https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21869"
+  ],
+  "landing": [
+   "https://doi.org/10.1002/rob.21869"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/pbosilj/veg-seg",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2021-05-21"
+   },
+   {
+    "url": "https://github.com/ismailmmu/Transfer-learning-in-agriculture-a-review",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2025-03-08"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/s24030770",
+  "doi": "10.3390/s24030770",
+  "arxiv": null,
+  "title": "Leveraging Remote Sensing Data for Yield Prediction with Deep Transfer Learning",
+  "date": "2024-1-24",
+  "authors": [
+   "Florian Huber",
+   "Alvin Inderka",
+   "Volker Steinhage"
+  ],
+  "venue": "Sensors",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/s24030770"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/DongshuoYin/Remote-Sensing-Tuning-A-Survey",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 41,
+    "license": null,
+    "updated": "2026-01-13"
+   },
+   {
+    "url": "https://github.com/alvin-in/PyCropYieldPrediction-withTransfer",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 5,
+    "license": "NOASSERTION",
+    "updated": "2024-02-12"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.compag.2022.107146",
+  "doi": "10.1016/j.compag.2022.107146",
+  "arxiv": null,
+  "title": "MTS-CNN: Multi-task semantic segmentation-convolutional neural network for detecting crops and weeds",
+  "date": "2022-8",
+  "authors": [
+   "Yu Hwan Kim",
+   "Kang Ryoung Park"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2022.107146"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Kimyuhwanpeter/MTS-CNN",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": null,
+    "updated": "2022-07-05"
+   },
+   {
+    "url": "https://github.com/Kimyuhwanpeter/Tensorflow_MTS-CNN",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2022-04-05"
+   },
+   {
+    "url": "https://github.com/Kimyuhwanpeter/4th_paper_segmentation_V12",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2022-04-05"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.compag.2026.112634",
+  "doi": "10.1016/j.compag.2026.112634",
+  "arxiv": null,
+  "title": "Real-time semantic segmentation of orchard LiDAR point clouds with a spherical-image convolutional neural network",
+  "date": "2026-11",
+  "authors": [
+   "Qiujie Li",
+   "Simiao Jing"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2026.112634"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/liqiujie2/orchard-lidar-seg",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2026-11-05"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1038/s42003-020-0905-5",
+  "doi": "10.1038/s42003-020-0905-5",
+  "arxiv": null,
+  "title": "Training instance segmentation neural network with synthetic datasets for crop seed phenotyping",
+  "date": "2020-4-15",
+  "authors": [
+   "Yosuke Toda",
+   "Fumio Okura",
+   "Jun Ito",
+   "Satoshi Okada",
+   "Toshinori Kinoshita",
+   "Hiroyuki Tsuji",
+   "Daisuke Saisho"
+  ],
+  "venue": "Communications Biology",
+  "pdf": [
+   "https://www.nature.com/articles/s42003-020-0905-5.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1038/s42003-020-0905-5"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/matterport/Mask_RCNN",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 25578,
+    "license": "NOASSERTION",
+    "updated": "2024-06-07"
+   },
+   {
+    "url": "https://github.com/totti0223/crop_seed_instance_segmentation",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 21,
+    "license": null,
+    "updated": "2019-12-07"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.compag.2024.109708",
+  "doi": "10.1016/j.compag.2024.109708",
+  "arxiv": null,
+  "title": "Apple tree architectural trait phenotyping with organ-level instance segmentation from point cloud",
+  "date": "2025-2",
+  "authors": [
+   "Lizhi Jiang",
+   "Changying Li",
+   "Longsheng Fu"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2024.109708"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/attavit14203638/transformer-tree-survey",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 3,
+    "license": "MIT",
+    "updated": "2026-10-20"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.compag.2015.11.018",
+  "doi": "10.1016/j.compag.2015.11.018",
+  "arxiv": null,
+  "title": "Wheat yield prediction using machine learning and advanced sensing techniques",
+  "date": "2016-2",
+  "authors": [
+   "X.E. Pantazi",
+   "D. Moshou",
+   "T. Alexandridis",
+   "R.L. Whetton",
+   "A.M. Mouazen"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2015.11.018"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/kev-nat/Wheat-Production-and-Demand-Forecasting",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": null,
+    "updated": "2025-04-20"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.measen.2023.101002",
+  "doi": "10.1016/j.measen.2023.101002",
+  "arxiv": null,
+  "title": "Crop yield prediction using multi-attribute weighted tree-based support vector machine",
+  "date": "2024-2",
+  "authors": [
+   "M. Rajakumaran",
+   "G. Arulselvan",
+   "S. Subashree",
+   "R. Sindhuja"
+  ],
+  "venue": "Measurement: Sensors",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.measen.2023.101002"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/mahendra3421/Smart-Crop-Yield-Prediction-and-Crop-Recommendation-System-Using-Machine-Learning",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": "MIT",
+    "updated": "2026-07-09"
+   },
+   {
+    "url": "https://github.com/charanchandrag37python-cmyk/Crop-yield-prediction-and-recommendation",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-09-12"
+   },
+   {
+    "url": "https://github.com/shashanknaidu47/Smart-crop-yield-prediction-and-recommendation-system",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2026-07-09"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1109/autocom60220.2024.10486160",
+  "doi": "10.1109/autocom60220.2024.10486160",
+  "arxiv": null,
+  "title": "A Machine Learning Approach for Predicting Crop Yield in Precision Agriculture",
+  "date": "2024-3-14",
+  "authors": [
+   "Santosh Kumar Upadhyay",
+   "Priyanshi Kushwaha",
+   "Prakhar Garg"
+  ],
+  "venue": "2024 International Conference on Automation and Computation (AUTOCOM)",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1109/autocom60220.2024.10486160"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/kpriyanshi02/Crop_Yield_Prediction",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2025-04-18"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs14235947",
+  "doi": "10.3390/rs14235947",
+  "arxiv": null,
+  "title": "Implementing Sentinel-2 Data and Machine Learning to Detect Plant Stress in Olive Groves",
+  "date": "2022-11-24",
+  "authors": [
+   "Ioannis Navrozidis",
+   "Thomas Alexandridis",
+   "Dimitrios Moshou",
+   "Anne Haugommard",
+   "Anastasia Lagopodi"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs14235947"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/NavroJohn/Implementing-Sentinel-2-data-and-machine-learning-to-detect-plant-stress-in-olive-groves",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2022-11-12"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/agronomy10071046",
+  "doi": "10.3390/agronomy10071046",
+  "arxiv": null,
+  "title": "Crop Yield Prediction through Proximal Sensing and Machine Learning Algorithms",
+  "date": "2020-7-20",
+  "authors": [
+   "Farhat Abbas",
+   "Hassan Afzaal",
+   "Aitazaz A. Farooque",
+   "Skylar Tang"
+  ],
+  "venue": "Agronomy",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/agronomy10071046"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/2406025-dotcom/UAS-Kecerdasan-Buatan-Farmers-Yield-Prediction",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-07-17"
+   },
+   {
+    "url": "https://github.com/shtgl/crop_health_nn",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2025-12-24"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1088/1748-9326/aae159",
+  "doi": "10.1088/1748-9326/aae159",
+  "arxiv": null,
+  "title": "Machine learning methods for crop yield prediction and climate change impact assessment in agriculture",
+  "date": "2018-10-26",
+  "authors": [
+   "Andrew Crane-Droesch"
+  ],
+  "venue": "Environmental Research Letters",
+  "pdf": [
+   "https://iopscience.iop.org/article/10.1088/1748-9326/aae159/pdf",
+   "https://iopscience.iop.org/article/10.1088/1748-9326/aae159/pdf",
+   "https://iopscience.iop.org/article/10.1088/1748-9326/aae159/pdf",
+   "https://iopscience.iop.org/article/10.1088/1748-9326/aae159/pdf",
+   "https://iopscience.iop.org/article/10.1088/1748-9326/aae159/pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1088/1748-9326/aae159"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/cranedroesch/ML_yield_ERL",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 20,
+    "license": null,
+    "updated": "2018-09-26"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.compag.2026.112055",
+  "doi": "10.1016/j.compag.2026.112055",
+  "arxiv": null,
+  "title": "MaizeStereo: 2D Gaussian splatting-driven stereo foundation model for in-field proximal 3D maize phenotyping",
+  "date": "2026-9",
+  "authors": [
+   "Ziang Niu",
+   "Siqi Liu",
+   "Yuan Gao",
+   "Ting Huang",
+   "Yong He",
+   "Zhengjun Qiu"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2026.112055"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Foundation models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Joyar546/MaizeStereo",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 1,
+    "license": null,
+    "updated": "2026-02-15"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs15102511",
+  "doi": "10.3390/rs15102511",
+  "arxiv": null,
+  "title": "Multimodal Deep Learning for Rice Yield Prediction Using UAV-Based Multispectral Imagery and Weather Data",
+  "date": "2023-5-10",
+  "authors": [
+   "Md. Suruj Mia",
+   "Ryoya Tanabe",
+   "Luthfan Nur Habibi",
+   "Naoyuki Hashimoto",
+   "Koki Homma",
+   "Masayasu Maki",
+   "Tsutomu Matsui",
+   "Takashi S. T. Tanaka"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs15102511"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/takashi2024/StanGP_RiceStripTrial",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2024-05-18"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs10111690",
+  "doi": "10.3390/rs10111690",
+  "arxiv": null,
+  "title": "Deep Learning with Unsupervised Data Labeling for Weed Detection in Line Crops in UAV Images",
+  "date": "2018-10-26",
+  "authors": [
+   "M Dian Bah",
+   "Adel Hafiane",
+   "Raphael Canals"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs10111690"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/pengxbin/Weeds-Detection-and-Segmentation",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 3,
+    "license": null,
+    "updated": "2019-05-10"
+   },
+   {
+    "url": "https://github.com/adiand12/Automatic-Weed-Detction-System",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2023-02-12"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs16030438",
+  "doi": "10.3390/rs16030438",
+  "arxiv": null,
+  "title": "Uncertainty Quantification of Soil Organic Carbon Estimation from Remote Sensing Data with Conformal Prediction",
+  "date": "2024-1-23",
+  "authors": [
+   "Nafiseh Kakhani",
+   "Setareh Alamdar",
+   "Ndiye Michael Kebonye",
+   "Meisam Amani",
+   "Thomas Scholten"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs16030438"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/nafisehkakhani/Conformal_Prediction_DSM",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 7,
+    "license": "MIT",
+    "updated": "2024-01-23"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1007/s11119-023-10069-x",
+  "doi": "10.1007/s11119-023-10069-x",
+  "arxiv": null,
+  "title": "Prediction of cotton yield based on soil texture, weather conditions and UAV imagery using deep learning",
+  "date": "2023-9-5",
+  "authors": [
+   "Aijing Feng",
+   "Jianfeng Zhou",
+   "Earl Vories",
+   "Kenneth A. Sudduth"
+  ],
+  "venue": "Precision Agriculture",
+  "pdf": [
+   "https://link.springer.com/content/pdf/10.1007/s11119-023-10069-x.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1007/s11119-023-10069-x"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/AJFeng/Multiple_years_yield_prediction",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2023-09-11"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1145/3746027.3754727",
+  "doi": "10.1145/3746027.3754727",
+  "arxiv": null,
+  "title": "Chain-of-Cooking: Cooking Process Visualization via Bidirectional Chain-of-Thought Guidance",
+  "date": "2025-10-27",
+  "authors": [
+   "Mengling Xu",
+   "Ming Tao",
+   "Bing-Kun Bao"
+  ],
+  "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1145/3746027.3754727"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Reasoning models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Molly260/Chain-of-Cooking",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": null,
+    "updated": "2025-09-16"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs13214372",
+  "doi": "10.3390/rs13214372",
+  "arxiv": null,
+  "title": "Integration of a Crop Growth Model and Deep Learning Methods to Improve Satellite-Based Yield Estimation of Winter Wheat in Henan Province, China",
+  "date": "2021-10-30",
+  "authors": [
+   "Yi Xie",
+   "Jianxi Huang"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs13214372"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/shtgl/crop_health_nn",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2025-12-24"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/rs12213521",
+  "doi": "10.3390/rs12213521",
+  "arxiv": null,
+  "title": "An Automated Framework for Plant Detection Based on Deep Simulated Learning from Drone Imagery",
+  "date": "2020-10-27",
+  "authors": [
+   "Benyamin Hosseiny",
+   "Heidar Rastiveis",
+   "Saeid Homayouni"
+  ],
+  "venue": "Remote Sensing",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/rs12213521"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Benyaminhosseiny/NSDL4EO",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 11,
+    "license": "MIT",
+    "updated": "2024-03-06"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1186/s12859-025-06190-5",
+  "doi": "10.1186/s12859-025-06190-5",
+  "arxiv": null,
+  "title": "BPFun: a deep learning framework for bioactive peptide function prediction using multi-label strategy by transformer-driven and sequence rich intrinsic information",
+  "date": "2025-7-21",
+  "authors": [
+   "Lun Zhu",
+   "Hao Sun",
+   "Sen Yang"
+  ],
+  "venue": "BMC Bioinformatics",
+  "pdf": [
+   "https://link.springer.com/content/pdf/10.1186/s12859-025-06190-5.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1186/s12859-025-06190-5"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/291357657/BPFun",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 2,
+    "license": null,
+    "updated": "2025-05-02"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1145/2986035.2986039",
+  "doi": "10.1145/2986035.2986039",
+  "arxiv": null,
+  "title": "Food/Non-food Image Classification and Food Categorization using Pre-Trained GoogLeNet Model",
+  "date": "2016-10-16",
+  "authors": [
+   "Ashutosh Singla",
+   "Lin Yuan",
+   "Touradj Ebrahimi"
+  ],
+  "venue": "Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1145/2986035.2986039"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/yablonovskydima/food-type-classification",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2026-11-18"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1145/3627673.3679885",
+  "doi": "10.1145/3627673.3679885",
+  "arxiv": null,
+  "title": "ChefFusion: Multimodal Foundation Model Integrating Recipe and Food Image Generation",
+  "date": "2024-10-21",
+  "authors": [
+   "Peiyu Li",
+   "Xiaobao Huang",
+   "Yijun Tian",
+   "Nitesh V. Chawla"
+  ],
+  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1145/3627673.3679885"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Foundation models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Peiyu-Georgia-Li/ChefFusion-Multimodal-Foundation-Model-Integrating-Recipe-and-Food-Image-Generation",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 8,
+    "license": null,
+    "updated": "2025-06-03"
+   },
+   {
+    "url": "https://github.com/shengyp/Recipe-Generator",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-02-12"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1145/3627673.3679580",
+  "doi": "10.1145/3627673.3679580",
+  "arxiv": null,
+  "title": "Multi-modal Food Recommendation with Health-aware Knowledge Distillation",
+  "date": "2024-10-21",
+  "authors": [
+   "Yixin Zhang",
+   "Xin Zhou",
+   "Fanglin Zhu",
+   "Ning Liu",
+   "Wei Guo",
+   "Yonghui Xu",
+   "Zhiqi Shen",
+   "Lizhen Cui"
+  ],
+  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1145/3627673.3679580"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Distillation"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/sdu-zyx/Multi-modal-Food-Recommendation",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": "MIT",
+    "updated": "2025-09-01"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/s22166299",
+  "doi": "10.3390/s22166299",
+  "arxiv": null,
+  "title": "A Cloud Enabled Crop Recommendation Platform for Machine Learning-Driven Precision Farming",
+  "date": "2022-8-22",
+  "authors": [
+   "Navod Neranjan Thilakarathne",
+   "Muhammad Saifullah Abu Bakar",
+   "Pg Emerolylariffion Abas",
+   "Hayati Yassin"
+  ],
+  "venue": "Sensors",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/s22166299"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Cibi-kumar777/Explainable-Bayesian-Network-for-Probabilistic-Crop-Risk-Assessment",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-10-17"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.22214/ijraset.2024.59464",
+  "doi": "10.22214/ijraset.2024.59464",
+  "arxiv": null,
+  "title": "Wild Animal Intrusion Detection System Using Raspberry PI",
+  "date": "2024-3-31",
+  "authors": [
+   "Tanaya Mane"
+  ],
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.22214/ijraset.2024.59464"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Quantization and edge deployment"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Mohan-S-Ugale/SentinelEye-Wild-Animal-Intrusion-Detection-System",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": "MIT",
+    "updated": "2026-07-05"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.3390/agriengineering8100410",
+  "doi": "10.3390/agriengineering8100410",
+  "arxiv": null,
+  "title": "Cattle-CLIP: A Multimodal Framework for Dairy Cattle Behaviour Recognition from Video",
+  "date": "2026-9-30",
+  "authors": [
+   "Huimin Liu",
+   "Jing Gao",
+   "Daria Baran",
+   "Axel X. Montout",
+   "Neill W. Campbell",
+   "Andrew W. Dowsey"
+  ],
+  "venue": "AgriEngineering",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.3390/agriengineering8100410"
+  ],
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "sources": [
+   "Crossref"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SolanLiu25/Dataset_CattleBehaviours6",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 5,
+    "license": null,
+    "updated": "2026-09-30"
+   },
+   {
+    "url": "https://github.com/pstAmbition/DailyArXiv_Multimodal",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 19,
+    "license": null,
+    "updated": "2026-11-05"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.16373",
+  "doi": "10.48550/arxiv.2611.16373",
+  "arxiv": "2611.16373",
+  "title": "Description-Guided CLIP Adaptation with Local Evidence Calibration for Few-Shot Plant Disease Recognition",
+  "date": "2026-11-12",
+  "authors": [
+   "Zhenkun Ye",
+   "Qian Zhou",
+   "Hua Zou"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.16373"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.16373",
+   "https://doi.org/10.48550/arxiv.2611.16373"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "sources": [
+   "OpenAlex",
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://www.kaggle.com/c/cassava-disease",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.10235",
+  "doi": "10.48550/arxiv.2611.10235",
+  "arxiv": "2611.10235",
+  "title": "Agibot: An Open-Source Modular Swerve-Drive Robot Platform for Agricultural Robotics Research and Education",
+  "date": "2026-11-06",
+  "authors": [
+   "Moeen Ul Islam",
+   "Bishal Adhikari",
+   "Kori Edwards",
+   "Lorien Harvey",
+   "J. Alex Thomasson",
+   "Dong Chen"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.10235"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.10235"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics"
+  ],
+  "sources": [
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://moeen14.github.io/agibot-homepage/",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper text",
+    "ok": true
+   },
+   {
+    "url": "https://huggingface.co/moeen14/argus-omnimotus-vision-models",
+    "kinds": [
+     "weights"
+    ],
+    "source": "Hugging Face (arXiv tag)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.19330",
+  "doi": "10.48550/arxiv.2611.19330",
+  "arxiv": "2611.19330",
+  "title": "Benchmarking the State of AI for Crop Yield Forecasting: A Global Assessment Across Modeling Paradigms",
+  "date": "2026-11-14",
+  "authors": [
+   "Michiel Kallenberg",
+   "Philip Janz",
+   "Christoph Jörges",
+   "Vageesh Saxena",
+   "Pratishtha Poudel",
+   "Mohammed Musthafa Rafi",
+   "Ioannis N. Athanasiadis"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.19330"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.19330"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "sources": [
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://wur-ai.github.io/AgML-CY-Bench-dashboard",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.08054",
+  "doi": "10.48550/arxiv.2611.08054",
+  "arxiv": "2611.08054",
+  "title": "NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models",
+  "date": "2026-11-05",
+  "authors": [
+   "Lubnaa Abdur Rahman",
+   "Ioannis Papathanail",
+   "Maria Panagiotou",
+   "Nefeli Dimitropoulou",
+   "Margret Harðardóttir",
+   "Elisabeth J. den Brok",
+   "Bastiaan E. de Galan",
+   "Stavroula Georgia Mougiakakou"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.08054"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.08054"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Retrieval-augmented generation and knowledge graphs"
+  ],
+  "sources": [
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2",
+    "kinds": [
+     "weights"
+    ],
+    "source": "paper text",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.23572",
+  "doi": "10.48550/arxiv.2611.23572",
+  "arxiv": "2611.23572",
+  "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
+  "date": "2026-11-17",
+  "authors": [
+   "Kaiwen Shi",
+   "Zheyuan Zhang",
+   "Changzhi Liu",
+   "Han Bao",
+   "Yanfang Ye"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.23572"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.23572"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Agents and agentic AI"
+  ],
+  "sources": [
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/shiiiikw/Receiver-Conditioned-Clarification-for-Multi-Agent-Food-Assistance",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-10-27"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.48550/arxiv.2611.15843",
+  "doi": "10.48550/arxiv.2611.15843",
+  "arxiv": "2611.15843",
+  "title": "Food Critic: An Agentic Visualization System for Auditable Restaurant-Safety Reasoning",
+  "date": "2026-11-11",
+  "authors": [
+   "Arleth Salinas",
+   "Ishrat Jahan Eliza",
+   "Valerio Pascucci"
+  ],
+  "venue": "arXiv",
+  "pdf": [
+   "https://arxiv.org/pdf/2611.15843"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2611.15843"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Agents and agentic AI"
+  ],
+  "sources": [
+   "arXiv"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/arlethzuri/Food-Critic",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-10-02"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "title:richerdatabasecontextimprovesllmgeneratedehrphenotypingalgorithms",
+  "doi": "",
+  "arxiv": null,
+  "title": "Richer database context improves LLM-generated EHR phenotyping algorithms",
+  "date": "2026-10-28",
+  "authors": [],
+  "venue": "medRxiv",
+  "pdf": [
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13734226/pdf/?tool=EBI",
+   "https://europepmc.org/articles/PMC13734226?pdf=render"
+  ],
+  "landing": [
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13734226/?tool=EBI",
+   "https://europepmc.org/articles/PMC13734226"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/scottye009/llm-phenotyping",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 2,
+    "license": "NOASSERTION",
+    "updated": "2026-10-26"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.crfs.2026.101610",
+  "doi": "10.1016/j.crfs.2026.101610",
+  "arxiv": null,
+  "title": "Advancing hyperspectral milk quality assessment: Deep learning-based spatial-spectral fusion for nutrient estimation.",
+  "date": "2026-10-30",
+  "authors": [
+   "Hong X",
+   "Xu Z",
+   "Jiang X",
+   "Bai Y",
+   "Min W",
+   "Jiang S",
+   "Rui Y"
+  ],
+  "venue": "Current research in food science",
+  "pdf": [
+   "https://europepmc.org/articles/PMC13755598?pdf=render"
+  ],
+  "landing": [
+   "https://europepmc.org/articles/PMC13755598"
+  ],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/xuziyang-imau/Milk-analysis",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-11-02"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1186/s13007-026-01574-x",
+  "doi": "10.1186/s13007-026-01574-x",
+  "arxiv": null,
+  "title": "RAGP: a retrieval-augmented deep learning model for genomic prediction in crop breeding.",
+  "date": "2026-08-09",
+  "authors": [
+   "Zuo L",
+   "Li X",
+   "Wang X",
+   "Man R",
+   "Yang Y"
+  ],
+  "venue": "Plant methods",
+  "pdf": [
+   "https://europepmc.org/articles/PMC13741653?pdf=render"
+  ],
+  "landing": [
+   "https://europepmc.org/articles/PMC13741653"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/l00907l/RAGP",
+    "kinds": [
+     "code"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 2,
+    "license": null,
+    "updated": "2026-04-15"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.64898/2026.10.29.762637",
+  "doi": "10.64898/2026.10.29.762637",
+  "arxiv": null,
+  "title": "PhenoMe: An interactive AI framework for interpretable, microscopy-driven phenotyping",
+  "date": "2026-11-03",
+  "authors": [
+   "González-Marfil A",
+   "Backová L",
+   "Bernatchez R",
+   "Hidalgo-Cenalmor I",
+   "Dufour A",
+   "Jacquemet G",
+   "Lavoie-Cardinal F",
+   "Arganda-Carreras I",
+   "Gómez-de-Mariscal E"
+  ],
+  "venue": "PPR",
+  "pdf": [],
+  "landing": [],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning",
+   "Foundation models"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/PhenoMe-Ecosystem/PhenoMe",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 13,
+    "license": "MIT",
+    "updated": "2026-11-16"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1007/s00586-026-10461-x",
+  "doi": "10.1007/s00586-026-10461-x",
+  "arxiv": null,
+  "title": "Genetic architecture of MRI-derived intervertebral DISC degeneration revealed by automated phenotyping and genomic structural equation modelling.",
+  "date": "2026-11-03",
+  "authors": [
+   "Compte R",
+   "Kazemi Naeini M",
+   "McSweeney T",
+   "Freidin MB",
+   "Karppinen J",
+   "Brummett CM",
+   "Williams FM"
+  ],
+  "venue": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+  "pdf": [],
+  "landing": [],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://zenodo.org/records/19064583",
+    "kinds": [
+     "data"
+    ],
+    "source": "Zenodo (linked to DOI)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.64898/2026.11.03.26367208",
+  "doi": "10.64898/2026.11.03.26367208",
+  "arxiv": null,
+  "title": "Before AI tells patients what to eat, it needs to know where they live: a cross-sectional ecological study of diabetes and food access in California and Michigan census tracts, with a spotlight on Metro Detroit and Metro Los Angeles",
+  "date": "2026-11-04",
+  "authors": [
+   "Chitipolu SS"
+  ],
+  "venue": "PPR",
+  "pdf": [],
+  "landing": [],
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models"
+  ],
+  "sources": [
+   "Europe PMC"
+  ],
+  "releases": [
+   {
+    "url": "https://zenodo.org/records/24025873",
+    "kinds": [
+     "code"
+    ],
+    "source": "Zenodo (linked to DOI)",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1038/s41598-026-78255-1",
+  "doi": "10.1038/s41598-026-78255-1",
+  "arxiv": null,
+  "title": "Small language models are agentic but not autonomous in greenhouse climate control",
+  "date": "2026-11-17",
+  "authors": [
+   "Mihai Penica",
+   "M. Bhattacharya",
+   "A. Dooley",
+   "E. O’Connell"
+  ],
+  "venue": "Scientific Reports",
+  "pdf": [
+   "https://www.nature.com/articles/s41598-026-78255-1_reference.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1038/s41598-026-78255-1"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Agents and agentic AI",
+   "Quantization and edge deployment"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://doi.org/10.5281/zenodo.21943871",
+    "kinds": [
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1016/j.atech.2026.102753",
+  "doi": "10.1016/j.atech.2026.102753",
+  "arxiv": null,
+  "title": "Synthetic meets authentic (Part II): Field-imaging-free auto-annotation and multi-orchard field validation for apple detection and segmentation",
+  "date": "2026-11-01",
+  "authors": [
+   "Ranjan Sapkota",
+   "Achyut Paudel",
+   "Manoj Karkee"
+  ],
+  "venue": "Smart Agricultural Technology",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.1016/j.atech.2026.102753",
+   "https://doi.org/10.1016/j.atech.2026.102753"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Computer vision"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/SustainableFieldRoboticsLab/Synthetic-meets-authentic-",
+    "kinds": [
+     "code",
+     "data"
+    ],
+    "source": "paper text",
+    "ok": true,
+    "stars": 0,
+    "license": "Apache-2.0",
+    "updated": "2026-11-01"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.5281/zenodo.23852189",
+  "doi": "10.5281/zenodo.23852189",
+  "arxiv": null,
+  "title": "Building Ungameable Trust Networks for Curated Directories: Decentralized Filtering Without Central Authority",
+  "date": "2026-11-01",
+  "authors": [
+   "Geoffrey Howland"
+  ],
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.5281/zenodo.23852189",
+   "https://doi.org/10.5281/zenodo.23852189",
+   "https://doi.org/10.5281/zenodo.23852190"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Large language models",
+   "Hallucination detection"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/ghowland/papers",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": "MIT",
+    "updated": "2026-11-15"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.1038/s41598-026-77167-4",
+  "doi": "10.1038/s41598-026-77167-4",
+  "arxiv": null,
+  "title": "AgriVision: adversarial image detection using Deep Learning in agricultural contexts",
+  "date": "2026-11-05",
+  "authors": [
+   "Mehmet Oğuz Yardımcı",
+   "Ajay Kulkarni",
+   "Trey Ward",
+   "Feras A. Batarseh"
+  ],
+  "venue": "Scientific Reports",
+  "pdf": [
+   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf",
+   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf"
+  ],
+  "landing": [
+   "https://doi.org/10.1038/s41598-026-77167-4",
+   "https://doi.org/10.1038/s41598-026-77167-4"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models",
+   "Machine learning and deep learning"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/AI-VTRC/AgriVision.AI",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-06-04"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.20944/preprints202611.0192.v1",
+  "doi": "10.20944/preprints202611.0192.v1",
+  "arxiv": null,
+  "title": "Capture Before the Question: A Natural-Image Visual Retention Pilot",
+  "date": "2026-11-03",
+  "authors": [
+   "Saurav Keshari Aryal"
+  ],
+  "venue": "Preprints.org",
+  "pdf": [],
+  "landing": [
+   "https://doi.org/10.20944/preprints202611.0192.v1",
+   "https://doi.org/10.20944/preprints202611.0192.v1"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/Saurav-K-Aryal/visual-retention-pilot",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 0,
+    "license": null,
+    "updated": "2026-10-31"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
+ },
+ {
+  "key": "10.13140/rg.2.2.27781.51681",
+  "doi": "10.13140/rg.2.2.27781.51681",
+  "arxiv": null,
+  "title": "From extreme weather to agricultural consequences with agentic AI",
+  "date": "2026-10-29",
+  "authors": [
+   "Minghan Yu",
+   "Mengyu Dai",
+   "Yixin Wen",
+   "Haizhao Yang"
+  ],
+  "venue": "arXiv (Cornell University)",
+  "pdf": [
+   "https://arxiv.org/pdf/2610.40641",
+   "https://arxiv.org/pdf/2610.40641"
+  ],
+  "landing": [
+   "https://arxiv.org/abs/2610.40641",
+   "https://arxiv.org/abs/2610.40641",
+   "https://doi.org/10.48550/arxiv.2610.40641",
+   "https://doi.org/10.13140/rg.2.2.27781.51681"
+  ],
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Agents and agentic AI"
+  ],
+  "sources": [
+   "OpenAlex"
+  ],
+  "releases": [
+   {
+    "url": "https://github.com/weatherml/weatherml.github.io",
+    "kinds": [
+     "code"
+    ],
+    "source": "GitHub README cites the title",
+    "ok": true,
+    "stars": 3,
+    "license": "Apache-2.0",
+    "updated": "2026-11-18"
+   }
+  ],
+  "checked": "2026-11-19",
+  "status": "auto-detected"
  }
 ]
