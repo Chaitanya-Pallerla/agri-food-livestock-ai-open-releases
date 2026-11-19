@@ -3949,50 +3949,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs12234000",
-  "doi": "10.3390/rs12234000",
-  "arxiv": null,
-  "title": "Crop Yield Prediction Using Multitemporal UAV Data and Spatio-Temporal Deep Learning Models",
-  "date": "2020-12-7",
-  "authors": [
-   "Petteri Nevavuori",
-   "Nathaniel Narra",
-   "Petri Linna",
-   "Tarmo Lipping"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs12234000"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Robotics",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/shtgl/crop_health_nn",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2025-12-24"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Summary Deep learning can scale image-based plant phenotyping but typically targets predefined traits, whereas manual phenotypic description is more flexible but difficult to scale. We present Phenotype eXplorer Generative Plant Traits (pxGPT), a Python framework that converts multi-view plant images into structured phenotype records. The workflow combines free-text description, dataset-specific schema generation with human review, and schema-constrained information extraction. We evaluated the extraction stage on three Brassica datasets using 78 973 annotations from 10 annotators who had no access to pxGPT predictions. For 38-45 qualitative traits per dataset, pxGPT-human agreement ranged from 0.572 to 0.712, compared with 0.620 to 0.739 agreement among human annotators. All 32 736 required trait fields were present; 93 values were empty, and no qualitative descriptor violations were recorded. For selected morphological structures, pooled false-positive rates were 0.5%-8.0%, while sensitivity varied across structure types in one mature-plant dataset (37.5%-100%). The curated schemas were applied unchanged with two commercial models and one locally hosted open-weight model, with differences in mean accuracy of 0.03 or less. In the evaluated Brassica datasets, these results support schema-guided extraction of visible plant traits without separate model training for each trait. Human-guided schema development offers a path to extend pxGPT to other crops and imaging conditions,"
  },
  {
   "key": "10.1109/iccv51701.2025.00716",
@@ -4032,64 +3990,11 @@
     "stars": 20,
     "license": null,
     "updated": "2025-12-26"
-   },
-   {
-    "url": "https://github.com/panilya/awesome-ai-benchmarks",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 53,
-    "license": "Apache-2.0",
-    "updated": "2026-08-28"
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs13050858",
-  "doi": "10.3390/rs13050858",
-  "arxiv": null,
-  "title": "Automated Machine Learning for High-Throughput Image-Based Plant Phenotyping",
-  "date": "2021-2-25",
-  "authors": [
-   "Joshua C.O. Koh",
-   "German Spangenberg",
-   "Surya Kant"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs13050858"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Robotics",
-   "Computer vision",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/pritomsh/Automated-Machine-Learning-with-Neural-Architecture-Search-Research-Papers",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": "MIT",
-    "updated": "2023-07-16"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.3390/rs13132622",
@@ -4134,7 +4039,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Unmanned aerial vehicle (UAV) and structure from motion (SfM) photogrammetry techniques are widely used for field-based, high-throughput plant phenotyping nowadays, but some of the intermediate processes throughout the workflow remain manual. For example, geographic information system (GIS) software is used to manually assess the 2D/3D field reconstruction quality and cropping region of interests (ROIs) from the whole field. In addition, extracting phenotypic traits from raw UAV images is more competitive than directly from the digital orthomosaic (DOM). Currently, no easy-to-use tools are available to implement previous tasks for commonly used commercial SfM software, such as Pix4D and Agisoft Metashape. Hence, an open source software package called easy intermediate data processor (EasyIDP; MIT license) was developed to decrease the workload in intermediate data processing mentioned above. The functions of the proposed package include (1) an ROI cropping module, assisting in reconstruction quality assessment and cropping ROIs from the whole field, and (2) an ROI reversing module, projecting ROIs to relative raw images. The result showed that both cropping and reversing modules work as expected. Moreover, the effects of ROI height selection and reversed ROI position on raw images to reverse calculation were discussed. This tool shows great potential for decreasing workload in data annotation for machine learning applications. "
  },
  {
   "key": "10.3390/rs17183227",
@@ -4175,7 +4081,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " The measurement of available water for agricultural plants is a crucial parameter for farmers, particularly to plan irrigation. However, an area-wide measurement is often not trivial as there are several inputs and outputs of water into the system. Here, we present a high-resolution, remote sensing-based water balance model for starch potato cultivation, combining multispectral ground station data with UAV and satellite imagery. Over a three-year period (2021–2023), data from Arable Mark 2 ground stations, DJI Phantom 4 MS drones, PlanetScope satellites, and Sentinel-2 satellites were collected in Mecklenburg–Western Pomerania, Germany. The model utilizes NDVI-based crop coefficients (R2 = 0.999) to estimate evapotranspiration and integrates on-farm irrigation and precipitation data for precise water balance calculations. A correlation with reference NDVI observations by Arable Mark 2 systems can be shown for UAV (R2 = 0.94), PlanetScope satellite data (R2 = 0.94), and Sentinel-2 satellite data (R2 = 0.93). We demonstrate the model’s ability to capture intra-site heterogeneity on a precision farming scale. Our spatially comprehensive model enables farmers to optimize irrigation strategies, reducing water and energy use. Although the results are based on sprinkler irrigation, the model remains adaptable for advanced irrigation methods such as drip and subsurface systems. "
  },
  {
   "key": "10.1016/j.isprsjprs.2018.09.008",
@@ -4216,96 +4123,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs16173290",
-  "doi": "10.3390/rs16173290",
-  "arxiv": null,
-  "title": "Delving into the Potential of Deep Learning Algorithms for Point Cloud Segmentation at Organ Level in Plant Phenotyping",
-  "date": "2024-9-4",
-  "authors": [
-   "Kai Xie",
-   "Jianzhong Zhu",
-   "He Ren",
-   "Yinghua Wang",
-   "Wanneng Yang",
-   "Gang Chen",
-   "Chengda Lin",
-   "Ruifang Zhai"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs16173290"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/xhzau/Plant-Point-Cloud",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2024-11-28"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs12152392",
-  "doi": "10.3390/rs12152392",
-  "arxiv": null,
-  "title": "Use of UAS Multispectral Imagery at Different Physiological Stages for Yield Prediction and Input Resource Optimization in Corn",
-  "date": "2020-7-26",
-  "authors": [
-   "Razieh Barzin",
-   "Rohit Pathak",
-   "Hossein Lotfi",
-   "Jac Varco",
-   "Ganesh C. Bora"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs12152392"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/kwankhaosiva-repo/Corn-Yield-Prediction-with-Geospatial-AI-old",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2025-12-08"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1109/icoicet68875.2026.11761423",
@@ -4343,21 +4162,11 @@
     "stars": 1,
     "license": "MIT",
     "updated": "2026-09-09"
-   },
-   {
-    "url": "https://github.com/kundanbedmutha/kundanbedmutha",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-10-01"
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1016/j.rse.2026.115234",
@@ -4403,88 +4212,11 @@
     "stars": 79,
     "license": "Apache-2.0",
     "updated": "2026-06-16"
-   },
-   {
-    "url": "https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 1981,
-    "license": null,
-    "updated": "2026-05-07"
-   },
-   {
-    "url": "https://github.com/YujinJung-Lab/agrifm-capstone",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-07-15"
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs14195045",
-  "doi": "10.3390/rs14195045",
-  "arxiv": null,
-  "title": "Rice Yield Prediction and Model Interpretation Based on Satellite and Climatic Indicators Using a Transformer Method",
-  "date": "2022-10-10",
-  "authors": [
-   "Yuanyuan Liu",
-   "Shaoqiang Wang",
-   "Jinghua Chen",
-   "Bin Chen",
-   "Xiaobo Wang",
-   "Dongze Hao",
-   "Leigang Sun"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs14195045"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/urushan78/Crop-Yield-Backend",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2024-05-30"
-   },
-   {
-    "url": "https://github.com/urushan78/Crop-Yield-Frontend",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2024-05-30"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1002/rob.21869",
@@ -4527,73 +4259,11 @@
     "stars": 0,
     "license": null,
     "updated": "2021-05-21"
-   },
-   {
-    "url": "https://github.com/ismailmmu/Transfer-learning-in-agriculture-a-review",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2025-03-08"
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/s24030770",
-  "doi": "10.3390/s24030770",
-  "arxiv": null,
-  "title": "Leveraging Remote Sensing Data for Yield Prediction with Deep Transfer Learning",
-  "date": "2024-1-24",
-  "authors": [
-   "Florian Huber",
-   "Alvin Inderka",
-   "Volker Steinhage"
-  ],
-  "venue": "Sensors",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/s24030770"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/DongshuoYin/Remote-Sensing-Tuning-A-Survey",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 41,
-    "license": null,
-    "updated": "2026-01-13"
-   },
-   {
-    "url": "https://github.com/alvin-in/PyCropYieldPrediction-withTransfer",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 5,
-    "license": "NOASSERTION",
-    "updated": "2024-02-12"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Abstract \n                   Agricultural robots rely on semantic segmentation for distinguishing between crops and weeds to perform selective treatments and increase yield and crop health while reducing the amount of chemicals used. Deep‐learning approaches have recently achieved both excellent classification performance and real‐time execution. However, these techniques also rely on a large amount of training data, requiring a substantial labeling effort, both of which are scarce in precision agriculture. Additional design efforts are required to achieve commercially viable performance levels under varying environmental conditions and crop growth stages. In this paper, we explore the role of knowledge transfer between deep‐learning‐based classifiers for different crop types, with the goal of reducing the retraining time and labeling efforts required for a new crop. We examine the classification performance on three datasets with different crop types and containing a variety of weeds and compare the performance and retraining efforts required when using data labeled at pixel level with partially labeled data obtained through a less time‐consuming procedure of annotating the segmentation output. We show that transfer learning between different crop types is possible and reduces training times for up to 80%. Furthermore, we show that even when the data used for retraining are imperfectly annotated, the classification performance is within 2% of that of networks trained with l"
  },
  {
   "key": "10.1016/j.compag.2022.107146",
@@ -4631,32 +4301,11 @@
     "stars": 2,
     "license": null,
     "updated": "2022-07-05"
-   },
-   {
-    "url": "https://github.com/Kimyuhwanpeter/Tensorflow_MTS-CNN",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2022-04-05"
-   },
-   {
-    "url": "https://github.com/Kimyuhwanpeter/4th_paper_segmentation_V12",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2022-04-05"
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "Research is being extensively conducted on using deep learning in the field of crop and weed segmentation based on images captured with a camera. However, the segmentation performance for various crops and weeds varies significantly, implying that certain classes of crops or weeds are not being detected properly. This problem may also occur in the loss calculations used in crop and weed segmentation. In previous studies, the cross-entropy loss (corresponding to a distribution loss) and dice loss (using spatial information) have been widely used. However, such losses lead to large discrepancies in crop and weed segmentation performance, as the correlations between crop and weed classes are not considered. In order to solve these problems, this study proposes multi-task semantic segmentation-convolutional neural network for detecting crops and weeds (MTS-CNN) using one-stage training. This approach adds the crop, weed, and both (crop and weed) losses to heighten the correlations between the crop and weed classes, and designs the model so that the object (crop and weed) region is trained intensively. In experiments conducted using three types of open databases - the BoniRob dataset, a crop/weed field image dataset (CWFID), and rice seedling and weed dataset - the mean intersection of union (MIOU) values of the segmentation for the crops and weeds in the MTS-CNN are 0.9164, 0.8372, and 0.8260, respectively. Thus, the results indicate higher accuracy from the proposed approach tha"
  },
  {
   "key": "10.1016/j.compag.2026.112634",
@@ -4697,7 +4346,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1038/s42003-020-0905-5",
@@ -4733,18 +4383,6 @@
   ],
   "releases": [
    {
-    "url": "https://github.com/matterport/Mask_RCNN",
-    "kinds": [
-     "code",
-     "data"
-    ],
-    "source": "paper text",
-    "ok": true,
-    "stars": 25578,
-    "license": "NOASSERTION",
-    "updated": "2024-06-07"
-   },
-   {
     "url": "https://github.com/totti0223/crop_seed_instance_segmentation",
     "kinds": [
      "code",
@@ -4758,292 +4396,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1016/j.compag.2024.109708",
-  "doi": "10.1016/j.compag.2024.109708",
-  "arxiv": null,
-  "title": "Apple tree architectural trait phenotyping with organ-level instance segmentation from point cloud",
-  "date": "2025-2",
-  "authors": [
-   "Lizhi Jiang",
-   "Changying Li",
-   "Longsheng Fu"
-  ],
-  "venue": "Computers and Electronics in Agriculture",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1016/j.compag.2024.109708"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Computer vision"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/attavit14203638/transformer-tree-survey",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 3,
-    "license": "MIT",
-    "updated": "2026-10-20"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1016/j.compag.2015.11.018",
-  "doi": "10.1016/j.compag.2015.11.018",
-  "arxiv": null,
-  "title": "Wheat yield prediction using machine learning and advanced sensing techniques",
-  "date": "2016-2",
-  "authors": [
-   "X.E. Pantazi",
-   "D. Moshou",
-   "T. Alexandridis",
-   "R.L. Whetton",
-   "A.M. Mouazen"
-  ],
-  "venue": "Computers and Electronics in Agriculture",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1016/j.compag.2015.11.018"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/kev-nat/Wheat-Production-and-Demand-Forecasting",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": null,
-    "updated": "2025-04-20"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1016/j.measen.2023.101002",
-  "doi": "10.1016/j.measen.2023.101002",
-  "arxiv": null,
-  "title": "Crop yield prediction using multi-attribute weighted tree-based support vector machine",
-  "date": "2024-2",
-  "authors": [
-   "M. Rajakumaran",
-   "G. Arulselvan",
-   "S. Subashree",
-   "R. Sindhuja"
-  ],
-  "venue": "Measurement: Sensors",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1016/j.measen.2023.101002"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/mahendra3421/Smart-Crop-Yield-Prediction-and-Crop-Recommendation-System-Using-Machine-Learning",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": "MIT",
-    "updated": "2026-07-09"
-   },
-   {
-    "url": "https://github.com/charanchandrag37python-cmyk/Crop-yield-prediction-and-recommendation",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-09-12"
-   },
-   {
-    "url": "https://github.com/shashanknaidu47/Smart-crop-yield-prediction-and-recommendation-system",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2026-07-09"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1109/autocom60220.2024.10486160",
-  "doi": "10.1109/autocom60220.2024.10486160",
-  "arxiv": null,
-  "title": "A Machine Learning Approach for Predicting Crop Yield in Precision Agriculture",
-  "date": "2024-3-14",
-  "authors": [
-   "Santosh Kumar Upadhyay",
-   "Priyanshi Kushwaha",
-   "Prakhar Garg"
-  ],
-  "venue": "2024 International Conference on Automation and Computation (AUTOCOM)",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1109/autocom60220.2024.10486160"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/kpriyanshi02/Crop_Yield_Prediction",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2025-04-18"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs14235947",
-  "doi": "10.3390/rs14235947",
-  "arxiv": null,
-  "title": "Implementing Sentinel-2 Data and Machine Learning to Detect Plant Stress in Olive Groves",
-  "date": "2022-11-24",
-  "authors": [
-   "Ioannis Navrozidis",
-   "Thomas Alexandridis",
-   "Dimitrios Moshou",
-   "Anne Haugommard",
-   "Anastasia Lagopodi"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs14235947"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/NavroJohn/Implementing-Sentinel-2-data-and-machine-learning-to-detect-plant-stress-in-olive-groves",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2022-11-12"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/agronomy10071046",
-  "doi": "10.3390/agronomy10071046",
-  "arxiv": null,
-  "title": "Crop Yield Prediction through Proximal Sensing and Machine Learning Algorithms",
-  "date": "2020-7-20",
-  "authors": [
-   "Farhat Abbas",
-   "Hassan Afzaal",
-   "Aitazaz A. Farooque",
-   "Skylar Tang"
-  ],
-  "venue": "Agronomy",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/agronomy10071046"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/2406025-dotcom/UAS-Kecerdasan-Buatan-Farmers-Yield-Prediction",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-07-17"
-   },
-   {
-    "url": "https://github.com/shtgl/crop_health_nn",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2025-12-24"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "In order to train the neural network for plant phenotyping, a sufficient amount of training data must be prepared, which requires time-consuming manual data annotation process that often becomes the limiting step. Here, we show that an instance segmentation neural network aimed to phenotype the barley seed morphology of various cultivars, can be sufficiently trained purely by a synthetically generated dataset. Our attempt is based on the concept of domain randomization, where a large amount of image is generated by randomly orienting the seed object to a virtual canvas. The trained model showed 96% recall and 95% average Precision against the real-world test dataset. We show that our approach is effective also for various crops including rice, lettuce, oat, and wheat. Constructing and utilizing such synthetic data can be a powerful method to alleviate human labor costs for deploying deep learning-based analysis in the agricultural domain."
  },
  {
   "key": "10.1088/1748-9326/aae159",
@@ -5088,7 +4442,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1016/j.compag.2026.112055",
@@ -5132,107 +4487,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs15102511",
-  "doi": "10.3390/rs15102511",
-  "arxiv": null,
-  "title": "Multimodal Deep Learning for Rice Yield Prediction Using UAV-Based Multispectral Imagery and Weather Data",
-  "date": "2023-5-10",
-  "authors": [
-   "Md. Suruj Mia",
-   "Ryoya Tanabe",
-   "Luthfan Nur Habibi",
-   "Naoyuki Hashimoto",
-   "Koki Homma",
-   "Masayasu Maki",
-   "Tsutomu Matsui",
-   "Takashi S. T. Tanaka"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs15102511"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Robotics",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/takashi2024/StanGP_RiceStripTrial",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2024-05-18"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs10111690",
-  "doi": "10.3390/rs10111690",
-  "arxiv": null,
-  "title": "Deep Learning with Unsupervised Data Labeling for Weed Detection in Line Crops in UAV Images",
-  "date": "2018-10-26",
-  "authors": [
-   "M Dian Bah",
-   "Adel Hafiane",
-   "Raphael Canals"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs10111690"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Robotics",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/pengxbin/Weeds-Detection-and-Segmentation",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 3,
-    "license": null,
-    "updated": "2019-05-10"
-   },
-   {
-    "url": "https://github.com/adiand12/Automatic-Weed-Detction-System",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2023-02-12"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.3390/rs16030438",
@@ -5275,7 +4531,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Soil organic carbon (SOC) contents and stocks provide valuable insights into soil health, nutrient cycling, greenhouse gas emissions, and overall ecosystem productivity. Given this, remote sensing data coupled with advanced machine learning (ML) techniques have eased SOC level estimation while revealing its patterns across different ecosystems. However, despite these advances, the intricacies of training reliable and yet certain SOC models for specific end-users remain a great challenge. To address this, we need robust SOC uncertainty quantification techniques. Here, we introduce a methodology that leverages conformal prediction to address the uncertainty in estimating SOC contents while using remote sensing data. Conformal prediction generates statistically reliable uncertainty intervals for predictions made by ML models. Our analysis, performed on the LUCAS dataset in Europe and incorporating a suite of relevant environmental covariates, underscores the efficacy of integrating conformal prediction with another ML model, specifically random forest. In addition, we conducted a comparative assessment of our results against prevalent uncertainty quantification methods for SOC prediction, employing different evaluation metrics to assess both model uncertainty and accuracy. Our methodology showcases the utility of the generated prediction sets as informative indicators of uncertainty. These sets accurately identify samples that pose prediction challenges, providing valuable insi"
  },
  {
   "key": "10.1007/s11119-023-10069-x",
@@ -5320,7 +4577,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "Crop yield prediction is important for farmers to conduct proper field management and make marketing decisions. Yield prediction models built on single-type and same-year data may not reflect the holistic effect of environment and management on crop development. This study aimed to quantify cotton yield variation due to soil texture and weather conditions using the multiple-year unmanned aerial vehicle (UAV) imagery and deep learning techniques. UAV images were collected about once a month to quantify cotton growth at two irrigated cotton fields in three years (2017–2019). Soil apparent electrical conductivity (ECₐ) of the fields was measured and calibrated to quantify soil texture and soil water holding capacity using eleven soil features. Convolutional neural networks (CNNs) were used to process and analyse the soil features in seven different depths. Similarly, a second CNN was used to analyse the six weather parameters derived from the historical data of a nearby weather station. A gated recurrent unit (GRU) network was used to predict cotton yield using the processed soil data, weather data, and UAV-based image features (e.g., NDVI) of different months. Results show that the GRU model trained with data in two years could predict the cotton yield in a third year with prediction errors of mean average error from 247 (8.9%) to 384 kg ha⁻¹ (13.7%). The study indicates that the developed CNN and GRU networks have the potential to predict crop yield of years other than the one"
  },
  {
   "key": "10.1145/3746027.3754727",
@@ -5361,48 +4619,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/rs13214372",
-  "doi": "10.3390/rs13214372",
-  "arxiv": null,
-  "title": "Integration of a Crop Growth Model and Deep Learning Methods to Improve Satellite-Based Yield Estimation of Winter Wheat in Henan Province, China",
-  "date": "2021-10-30",
-  "authors": [
-   "Yi Xie",
-   "Jianxi Huang"
-  ],
-  "venue": "Remote Sensing",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/rs13214372"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Computer vision",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/shtgl/crop_health_nn",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2025-12-24"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.3390/rs12213521",
@@ -5445,7 +4663,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Traditional mapping and monitoring of agricultural fields are expensive, laborious, and may contain human errors. Technological advances in platforms and sensors, followed by artificial intelligence (AI) and deep learning (DL) breakthroughs in intelligent data processing, led to improving the remote sensing applications for precision agriculture (PA). Therefore, technological advances in platforms and sensors and intelligent data processing methods, such as machine learning and DL, and geospatial and remote sensing technologies, have improved the quality of agricultural land monitoring for PA needs. However, providing ground truth data for model training is a time-consuming and tedious task and may contain multiple human errors. This paper proposes an automated and fully unsupervised framework based on image processing and DL methods for plant detection in agricultural lands from very high-resolution drone remote sensing imagery. The proposed framework’s main idea is to automatically generate an unlimited amount of simulated training data from the input image. This capability is advantageous for DL methods and can solve their biggest drawback, i.e., requiring a considerable amount of training data. This framework’s core is based on the faster regional convolutional neural network (R-CNN) with the backbone of ResNet-101 for object detection. The proposed framework’s efficiency was evaluated by two different image sets from two cornfields, acquired by an RGB camera mounted on "
  },
  {
   "key": "10.1186/s12859-025-06190-5",
@@ -5489,325 +4708,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1145/2986035.2986039",
-  "doi": "10.1145/2986035.2986039",
-  "arxiv": null,
-  "title": "Food/Non-food Image Classification and Food Categorization using Pre-Trained GoogLeNet Model",
-  "date": "2016-10-16",
-  "authors": [
-   "Ashutosh Singla",
-   "Lin Yuan",
-   "Touradj Ebrahimi"
-  ],
-  "venue": "Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1145/2986035.2986039"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Computer vision"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/yablonovskydima/food-type-classification",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2026-11-18"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1145/3627673.3679885",
-  "doi": "10.1145/3627673.3679885",
-  "arxiv": null,
-  "title": "ChefFusion: Multimodal Foundation Model Integrating Recipe and Food Image Generation",
-  "date": "2024-10-21",
-  "authors": [
-   "Peiyu Li",
-   "Xiaobao Huang",
-   "Yijun Tian",
-   "Nitesh V. Chawla"
-  ],
-  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1145/3627673.3679885"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Foundation models"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/Peiyu-Georgia-Li/ChefFusion-Multimodal-Foundation-Model-Integrating-Recipe-and-Food-Image-Generation",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 8,
-    "license": null,
-    "updated": "2025-06-03"
-   },
-   {
-    "url": "https://github.com/shengyp/Recipe-Generator",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-02-12"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1145/3627673.3679580",
-  "doi": "10.1145/3627673.3679580",
-  "arxiv": null,
-  "title": "Multi-modal Food Recommendation with Health-aware Knowledge Distillation",
-  "date": "2024-10-21",
-  "authors": [
-   "Yixin Zhang",
-   "Xin Zhou",
-   "Fanglin Zhu",
-   "Ning Liu",
-   "Wei Guo",
-   "Yonghui Xu",
-   "Zhiqi Shen",
-   "Lizhen Cui"
-  ],
-  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.1145/3627673.3679580"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Distillation"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/sdu-zyx/Multi-modal-Food-Recommendation",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": "MIT",
-    "updated": "2025-09-01"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/s22166299",
-  "doi": "10.3390/s22166299",
-  "arxiv": null,
-  "title": "A Cloud Enabled Crop Recommendation Platform for Machine Learning-Driven Precision Farming",
-  "date": "2022-8-22",
-  "authors": [
-   "Navod Neranjan Thilakarathne",
-   "Muhammad Saifullah Abu Bakar",
-   "Pg Emerolylariffion Abas",
-   "Hayati Yassin"
-  ],
-  "venue": "Sensors",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/s22166299"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/Cibi-kumar777/Explainable-Bayesian-Network-for-Probabilistic-Crop-Risk-Assessment",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-10-17"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.22214/ijraset.2024.59464",
-  "doi": "10.22214/ijraset.2024.59464",
-  "arxiv": null,
-  "title": "Wild Animal Intrusion Detection System Using Raspberry PI",
-  "date": "2024-3-31",
-  "authors": [
-   "Tanaya Mane"
-  ],
-  "venue": "International Journal for Research in Applied Science and Engineering Technology",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.22214/ijraset.2024.59464"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Quantization and edge deployment"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/Mohan-S-Ugale/SentinelEye-Wild-Animal-Intrusion-Detection-System",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": "MIT",
-    "updated": "2026-07-05"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.3390/agriengineering8100410",
-  "doi": "10.3390/agriengineering8100410",
-  "arxiv": null,
-  "title": "Cattle-CLIP: A Multimodal Framework for Dairy Cattle Behaviour Recognition from Video",
-  "date": "2026-9-30",
-  "authors": [
-   "Huimin Liu",
-   "Jing Gao",
-   "Daria Baran",
-   "Axel X. Montout",
-   "Neill W. Campbell",
-   "Andrew W. Dowsey"
-  ],
-  "venue": "AgriEngineering",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.3390/agriengineering8100410"
-  ],
-  "domains": [
-   "Livestock and aquaculture"
-  ],
-  "technologies": [
-   "Vision-language models"
-  ],
-  "sources": [
-   "Crossref"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/SolanLiu25/Dataset_CattleBehaviours6",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 5,
-    "license": null,
-    "updated": "2026-09-30"
-   },
-   {
-    "url": "https://github.com/pstAmbition/DailyArXiv_Multimodal",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 19,
-    "license": null,
-    "updated": "2026-11-05"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.48550/arxiv.2611.16373",
-  "doi": "10.48550/arxiv.2611.16373",
-  "arxiv": "2611.16373",
-  "title": "Description-Guided CLIP Adaptation with Local Evidence Calibration for Few-Shot Plant Disease Recognition",
-  "date": "2026-11-12",
-  "authors": [
-   "Zhenkun Ye",
-   "Qian Zhou",
-   "Hua Zou"
-  ],
-  "venue": "arXiv",
-  "pdf": [
-   "https://arxiv.org/pdf/2611.16373"
-  ],
-  "landing": [
-   "https://arxiv.org/abs/2611.16373",
-   "https://doi.org/10.48550/arxiv.2611.16373"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Vision-language models"
-  ],
-  "sources": [
-   "OpenAlex",
-   "arXiv"
-  ],
-  "releases": [
-   {
-    "url": "https://www.kaggle.com/c/cassava-disease",
-    "kinds": [
-     "data"
-    ],
-    "source": "paper text",
-    "ok": true
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "Bioactive peptides are beneficial or have physiological effects on the life activities of biological organisms. The functions of bioactive peptides are diverse, usually with one or more, so accurately detecting the multiple functions of multi-functional peptides is extremely important. Traditional experimental identification methods are time-consuming, laborious and costly. To overcome these problems, we adopt a computational biology approach and propose a new model BPFun based on deep learning, which can predict seven functions including anticancer, antibacterial, antihypertensive and so on. In BPFun, we obtained the features of bioactive peptides from different aspects, including biological and physicochemical features. Meanwhile, adopting data augmentation to solve the problem of data imbalance. We combine convolutional networks of different scales and Bi-LSTM layers to obtain high-level feature vectors of different features. Finally, the prediction performance is improved by combining these fused features and combining the self-attention mechanism and the Bi-LSTM layer. Our experiments show that BPFun based on five types of sequence features significantly improves the prediction performance of bioactive peptides. Experiments on the test dataset showed that BPFun gets the accuracy and absolute truth value of 0.6577 and 0.6573 on the dataset of seven functional classifications and was superior to other methods. Codes and data are available at https://github.com/291357657/BP"
  },
  {
   "key": "10.48550/arxiv.2611.10235",
@@ -5858,7 +4760,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.48550/arxiv.2611.19330",
@@ -5904,98 +4807,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.48550/arxiv.2611.08054",
-  "doi": "10.48550/arxiv.2611.08054",
-  "arxiv": "2611.08054",
-  "title": "NutriVisRAG: Multimodal Exemplar Grounding for Nutrient Estimation with Vision-Language Models",
-  "date": "2026-11-05",
-  "authors": [
-   "Lubnaa Abdur Rahman",
-   "Ioannis Papathanail",
-   "Maria Panagiotou",
-   "Nefeli Dimitropoulou",
-   "Margret Harðardóttir",
-   "Elisabeth J. den Brok",
-   "Bastiaan E. de Galan",
-   "Stavroula Georgia Mougiakakou"
-  ],
-  "venue": "arXiv",
-  "pdf": [
-   "https://arxiv.org/pdf/2611.08054"
-  ],
-  "landing": [
-   "https://arxiv.org/abs/2611.08054"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Vision-language models",
-   "Retrieval-augmented generation and knowledge graphs"
-  ],
-  "sources": [
-   "arXiv"
-  ],
-  "releases": [
-   {
-    "url": "https://huggingface.co/nvidia/llama-nemotron-rerank-vl-1b-v2",
-    "kinds": [
-     "weights"
-    ],
-    "source": "paper text",
-    "ok": true
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.48550/arxiv.2611.23572",
-  "doi": "10.48550/arxiv.2611.23572",
-  "arxiv": "2611.23572",
-  "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
-  "date": "2026-11-17",
-  "authors": [
-   "Kaiwen Shi",
-   "Zheyuan Zhang",
-   "Changzhi Liu",
-   "Han Bao",
-   "Yanfang Ye"
-  ],
-  "venue": "arXiv",
-  "pdf": [
-   "https://arxiv.org/pdf/2611.23572"
-  ],
-  "landing": [
-   "https://arxiv.org/abs/2611.23572"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Agents and agentic AI"
-  ],
-  "sources": [
-   "arXiv"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/shiiiikw/Receiver-Conditioned-Clarification-for-Multi-Agent-Food-Assistance",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-10-27"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.48550/arxiv.2611.15843",
@@ -6019,7 +4832,6 @@
    "Food"
   ],
   "technologies": [
-   "Large language models",
    "Agents and agentic AI"
   ],
   "sources": [
@@ -6039,95 +4851,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "title:richerdatabasecontextimprovesllmgeneratedehrphenotypingalgorithms",
-  "doi": "",
-  "arxiv": null,
-  "title": "Richer database context improves LLM-generated EHR phenotyping algorithms",
-  "date": "2026-10-28",
-  "authors": [],
-  "venue": "medRxiv",
-  "pdf": [
-   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13734226/pdf/?tool=EBI",
-   "https://europepmc.org/articles/PMC13734226?pdf=render"
-  ],
-  "landing": [
-   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13734226/?tool=EBI",
-   "https://europepmc.org/articles/PMC13734226"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Large language models"
-  ],
-  "sources": [
-   "Europe PMC"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/scottye009/llm-phenotyping",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 2,
-    "license": "NOASSERTION",
-    "updated": "2026-10-26"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1016/j.crfs.2026.101610",
-  "doi": "10.1016/j.crfs.2026.101610",
-  "arxiv": null,
-  "title": "Advancing hyperspectral milk quality assessment: Deep learning-based spatial-spectral fusion for nutrient estimation.",
-  "date": "2026-10-30",
-  "authors": [
-   "Hong X",
-   "Xu Z",
-   "Jiang X",
-   "Bai Y",
-   "Min W",
-   "Jiang S",
-   "Rui Y"
-  ],
-  "venue": "Current research in food science",
-  "pdf": [
-   "https://europepmc.org/articles/PMC13755598?pdf=render"
-  ],
-  "landing": [
-   "https://europepmc.org/articles/PMC13755598"
-  ],
-  "domains": [
-   "Food"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Europe PMC"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/xuziyang-imau/Milk-analysis",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-11-02"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1186/s13007-026-01574-x",
@@ -6172,93 +4897,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.64898/2026.10.29.762637",
-  "doi": "10.64898/2026.10.29.762637",
-  "arxiv": null,
-  "title": "PhenoMe: An interactive AI framework for interpretable, microscopy-driven phenotyping",
-  "date": "2026-11-03",
-  "authors": [
-   "González-Marfil A",
-   "Backová L",
-   "Bernatchez R",
-   "Hidalgo-Cenalmor I",
-   "Dufour A",
-   "Jacquemet G",
-   "Lavoie-Cardinal F",
-   "Arganda-Carreras I",
-   "Gómez-de-Mariscal E"
-  ],
-  "venue": "PPR",
-  "pdf": [],
-  "landing": [],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning",
-   "Foundation models"
-  ],
-  "sources": [
-   "Europe PMC"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/PhenoMe-Ecosystem/PhenoMe",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 13,
-    "license": "MIT",
-    "updated": "2026-11-16"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1007/s00586-026-10461-x",
-  "doi": "10.1007/s00586-026-10461-x",
-  "arxiv": null,
-  "title": "Genetic architecture of MRI-derived intervertebral DISC degeneration revealed by automated phenotyping and genomic structural equation modelling.",
-  "date": "2026-11-03",
-  "authors": [
-   "Compte R",
-   "Kazemi Naeini M",
-   "McSweeney T",
-   "Freidin MB",
-   "Karppinen J",
-   "Brummett CM",
-   "Williams FM"
-  ],
-  "venue": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
-  "pdf": [],
-  "landing": [],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "Europe PMC"
-  ],
-  "releases": [
-   {
-    "url": "https://zenodo.org/records/19064583",
-    "kinds": [
-     "data"
-    ],
-    "source": "Zenodo (linked to DOI)",
-    "ok": true
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "Genomic prediction (GP) plays a pivotal role in expediting genetic gains for crop breeding. Recently, deep learning models has attracted growing attention in this field due to its superior performance over traditional models. However, most advanced models rely on simplified numerical representations of genomic variants and treat individuals in isolation, failing to capture the full complexity of genetic variation and the genetic relatedness among individuals. In response, we propose RAGP, a deep learning model driven by a retrieval-augmented mechanism composed of two synergistic components: (1) an embedding-based retrieval module that identifies a group of nearest neighbors highly relevant to the target sample as references, employs a phenotype-aware encoder to refine the representation space and capture informative genetic structures; (2) an augmentation module that integrates the retrieved references to enhance the target representation. The enriched representation is then propagated through a regression network for final prediction. This retrieval-guided strategy enables more informed and fine-grained utilization of genomic data and strengthens the model's capacity to capture individual-level genetic relationships. Extensive experiments reveal that RAGP achieves consistently superior predictive performance compared to both conventional methods and state-of-the-art deep learning models. By incorporating retrieval-augmented mechanisms, RAGP achieves substantial improvements "
  },
  {
   "key": "10.64898/2026.11.03.26367208",
@@ -6292,7 +4932,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": " Background   AI chatbots now give people with diabetes diet advice, but whether those foods can be bought near home is rarely checked.  Methods   In a cross-sectional ecological study of 11,974 California and Michigan census tracts, I linked diabetes prevalence (CDC PLACES 2025) with two USDA food-access maps: all SNAP-authorized stores (2025) and large grocery stores only (2019). I identified double-burden tracts (high diabetes and low income/low access) and hidden food deserts (low access to large grocery stores, but not to any SNAP store). In a pilot, ChatGPT, Gemini, and Claude generated meal plans for the same person across 20 high-diabetes tracts in Metro Los Angeles and Metro Detroit; I scored whether advice was healthy and whether foods were sold at nearby store types.  Results   Double-burden tracts were few (71 in California, 19 in Michigan), almost none in the two metros. Food-desert tracts had a 1.5 percentage-point higher diabetes prevalence (95% CI, 1.0–2.0). Counting all SNAP stores hid 567 Californian and 329 Michigan food deserts; in Metro Detroit, all 97 disappeared, including 51 high-diabetes tracts with about 19,500 adults with diabetes. Chatbot advice was healthy, but in hidden tracts 30% of recommended foods were not reliably sold nearby; the chatbots barely adjusted. Of 55 places they named, 13% had errors, and most were over a mile away.  Conclusions   The current USDA map obscures food deserts, especially in Detroit, and AI diet advice barely adjusts"
  },
  {
   "key": "10.1038/s41598-026-78255-1",
@@ -6317,9 +4958,7 @@
    "Agriculture"
   ],
   "technologies": [
-   "Large language models",
-   "Agents and agentic AI",
-   "Quantization and edge deployment"
+   "Agents and agentic AI"
   ],
   "sources": [
    "OpenAlex"
@@ -6335,7 +4974,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.1016/j.atech.2026.102753",
@@ -6379,96 +5019,8 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.5281/zenodo.23852189",
-  "doi": "10.5281/zenodo.23852189",
-  "arxiv": null,
-  "title": "Building Ungameable Trust Networks for Curated Directories: Decentralized Filtering Without Central Authority",
-  "date": "2026-11-01",
-  "authors": [
-   "Geoffrey Howland"
-  ],
-  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-  "pdf": [],
-  "landing": [
-   "https://doi.org/10.5281/zenodo.23852189",
-   "https://doi.org/10.5281/zenodo.23852189",
-   "https://doi.org/10.5281/zenodo.23852190"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Large language models",
-   "Hallucination detection"
-  ],
-  "sources": [
-   "OpenAlex"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/ghowland/papers",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": "MIT",
-    "updated": "2026-11-15"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.1038/s41598-026-77167-4",
-  "doi": "10.1038/s41598-026-77167-4",
-  "arxiv": null,
-  "title": "AgriVision: adversarial image detection using Deep Learning in agricultural contexts",
-  "date": "2026-11-05",
-  "authors": [
-   "Mehmet Oğuz Yardımcı",
-   "Ajay Kulkarni",
-   "Trey Ward",
-   "Feras A. Batarseh"
-  ],
-  "venue": "Scientific Reports",
-  "pdf": [
-   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf",
-   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf"
-  ],
-  "landing": [
-   "https://doi.org/10.1038/s41598-026-77167-4",
-   "https://doi.org/10.1038/s41598-026-77167-4"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Vision-language models",
-   "Machine learning and deep learning"
-  ],
-  "sources": [
-   "OpenAlex"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/AI-VTRC/AgriVision.AI",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 0,
-    "license": null,
-    "updated": "2026-06-04"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": ""
  },
  {
   "key": "10.20944/preprints202611.0192.v1",
@@ -6508,54 +5060,7 @@
    }
   ],
   "checked": "2026-11-19",
-  "status": "auto-detected"
- },
- {
-  "key": "10.13140/rg.2.2.27781.51681",
-  "doi": "10.13140/rg.2.2.27781.51681",
-  "arxiv": null,
-  "title": "From extreme weather to agricultural consequences with agentic AI",
-  "date": "2026-10-29",
-  "authors": [
-   "Minghan Yu",
-   "Mengyu Dai",
-   "Yixin Wen",
-   "Haizhao Yang"
-  ],
-  "venue": "arXiv (Cornell University)",
-  "pdf": [
-   "https://arxiv.org/pdf/2610.40641",
-   "https://arxiv.org/pdf/2610.40641"
-  ],
-  "landing": [
-   "https://arxiv.org/abs/2610.40641",
-   "https://arxiv.org/abs/2610.40641",
-   "https://doi.org/10.48550/arxiv.2610.40641",
-   "https://doi.org/10.13140/rg.2.2.27781.51681"
-  ],
-  "domains": [
-   "Agriculture"
-  ],
-  "technologies": [
-   "Agents and agentic AI"
-  ],
-  "sources": [
-   "OpenAlex"
-  ],
-  "releases": [
-   {
-    "url": "https://github.com/weatherml/weatherml.github.io",
-    "kinds": [
-     "code"
-    ],
-    "source": "GitHub README cites the title",
-    "ok": true,
-    "stars": 3,
-    "license": "Apache-2.0",
-    "updated": "2026-11-18"
-   }
-  ],
-  "checked": "2026-11-19",
-  "status": "auto-detected"
+  "status": "auto-detected",
+  "abstract": "A visual assistant may store a scene before learning which detail a user will request. This motivates evaluating retained evidence with future questions rather than assuming that pixel fidelity or detected text predicts answer quality. We report a frozen, small natural-image pilot using TextVQA's published human answers. Four development and 24 image-disjoint held-out groups are evaluated with two local vision-language models, for 224 actual calls. Question-blind JPEG, WebP and OCR-crop-plus-thumbnail representations share a 12,000-byte cap that includes their ZIP containers and metadata; the original image is an unbudgeted reference. On held-out images, official human-consensus mean scores for JPEG/WebP/OCR crops are 0.700/0.771/0.538 with Qwen3.5 and 0.733/0.767/0.450 with Gemma4, versus 0.883/0.779 for originals. The crop baseline never outperforms WebP on a paired held-out image for either model. All 84 retained packets fit the cap. One original-image response violates the required string-answer contract and remains scored zero without repair. These observations support ordinary-codec baselines and direct utility measurement. They establish neither a better encoder nor energy savings. We outline a larger proxy-reliability study and a lightweight capture-time codec controller, with learned representation development conditional on a demonstrated gap."
  }
 ]

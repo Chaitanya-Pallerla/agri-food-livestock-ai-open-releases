@@ -15560,5 +15560,623 @@
    "https://jkspe.or.kr/upload/pdf/JKSPE-026-00064.pdf",
    "https://jkspe.or.kr/upload/pdf/JKSPE-026-00064.pdf"
   ]
+ },
+ {
+  "key": "10.3390/rs12234000",
+  "title": "Crop Yield Prediction Using Multitemporal UAV Data and Spatio-Temporal Deep Learning Models",
+  "doi": "10.3390/rs12234000",
+  "date": "2020-12-7",
+  "authors": [
+   "Petteri Nevavuori",
+   "Nathaniel Narra",
+   "Petri Linna"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs12234000"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs13050858",
+  "title": "Automated Machine Learning for High-Throughput Image-Based Plant Phenotyping",
+  "doi": "10.3390/rs13050858",
+  "date": "2021-2-25",
+  "authors": [
+   "Joshua C.O. Koh",
+   "German Spangenberg",
+   "Surya Kant"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs13050858"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs16173290",
+  "title": "Delving into the Potential of Deep Learning Algorithms for Point Cloud Segmentation at Organ Level in Plant Phenotyping",
+  "doi": "10.3390/rs16173290",
+  "date": "2024-9-4",
+  "authors": [
+   "Kai Xie",
+   "Jianzhong Zhu",
+   "He Ren"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs16173290"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs12152392",
+  "title": "Use of UAS Multispectral Imagery at Different Physiological Stages for Yield Prediction and Input Resource Optimization in Corn",
+  "doi": "10.3390/rs12152392",
+  "date": "2020-7-26",
+  "authors": [
+   "Razieh Barzin",
+   "Rohit Pathak",
+   "Hossein Lotfi"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs12152392"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs14195045",
+  "title": "Rice Yield Prediction and Model Interpretation Based on Satellite and Climatic Indicators Using a Transformer Method",
+  "doi": "10.3390/rs14195045",
+  "date": "2022-10-10",
+  "authors": [
+   "Yuanyuan Liu",
+   "Shaoqiang Wang",
+   "Jinghua Chen"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs14195045"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/s24030770",
+  "title": "Leveraging Remote Sensing Data for Yield Prediction with Deep Transfer Learning",
+  "doi": "10.3390/s24030770",
+  "date": "2024-1-24",
+  "authors": [
+   "Florian Huber",
+   "Alvin Inderka",
+   "Volker Steinhage"
+  ],
+  "venue": "Sensors",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/s24030770"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1016/j.compag.2015.11.018",
+  "title": "Wheat yield prediction using machine learning and advanced sensing techniques",
+  "doi": "10.1016/j.compag.2015.11.018",
+  "date": "2016-2",
+  "authors": [
+   "X.E. Pantazi",
+   "D. Moshou",
+   "T. Alexandridis"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2015.11.018"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1016/j.measen.2023.101002",
+  "title": "Crop yield prediction using multi-attribute weighted tree-based support vector machine",
+  "doi": "10.1016/j.measen.2023.101002",
+  "date": "2024-2",
+  "authors": [
+   "M. Rajakumaran",
+   "G. Arulselvan",
+   "S. Subashree"
+  ],
+  "venue": "Measurement: Sensors",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1016/j.measen.2023.101002"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1109/autocom60220.2024.10486160",
+  "title": "A Machine Learning Approach for Predicting Crop Yield in Precision Agriculture",
+  "doi": "10.1109/autocom60220.2024.10486160",
+  "date": "2024-3-14",
+  "authors": [
+   "Santosh Kumar Upadhyay",
+   "Priyanshi Kushwaha",
+   "Prakhar Garg"
+  ],
+  "venue": "2024 International Conference on Automation and Computation (AUTOCOM)",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1109/autocom60220.2024.10486160"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs14235947",
+  "title": "Implementing Sentinel-2 Data and Machine Learning to Detect Plant Stress in Olive Groves",
+  "doi": "10.3390/rs14235947",
+  "date": "2022-11-24",
+  "authors": [
+   "Ioannis Navrozidis",
+   "Thomas Alexandridis",
+   "Dimitrios Moshou"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs14235947"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/agronomy10071046",
+  "title": "Crop Yield Prediction through Proximal Sensing and Machine Learning Algorithms",
+  "doi": "10.3390/agronomy10071046",
+  "date": "2020-7-20",
+  "authors": [
+   "Farhat Abbas",
+   "Hassan Afzaal",
+   "Aitazaz A. Farooque"
+  ],
+  "venue": "Agronomy",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/agronomy10071046"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs15102511",
+  "title": "Multimodal Deep Learning for Rice Yield Prediction Using UAV-Based Multispectral Imagery and Weather Data",
+  "doi": "10.3390/rs15102511",
+  "date": "2023-5-10",
+  "authors": [
+   "Md. Suruj Mia",
+   "Ryoya Tanabe",
+   "Luthfan Nur Habibi"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs15102511"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs10111690",
+  "title": "Deep Learning with Unsupervised Data Labeling for Weed Detection in Line Crops in UAV Images",
+  "doi": "10.3390/rs10111690",
+  "date": "2018-10-26",
+  "authors": [
+   "M Dian Bah",
+   "Adel Hafiane",
+   "Raphael Canals"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics",
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs10111690"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs13214372",
+  "title": "Integration of a Crop Growth Model and Deep Learning Methods to Improve Satellite-Based Yield Estimation of Winter Wheat in Henan Province, China",
+  "doi": "10.3390/rs13214372",
+  "date": "2021-10-30",
+  "authors": [
+   "Yi Xie",
+   "Jianxi Huang"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Computer vision",
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/rs13214372"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1145/2986035.2986039",
+  "title": "Food/Non-food Image Classification and Food Categorization using Pre-Trained GoogLeNet Model",
+  "doi": "10.1145/2986035.2986039",
+  "date": "2016-10-16",
+  "authors": [
+   "Ashutosh Singla",
+   "Lin Yuan",
+   "Touradj Ebrahimi"
+  ],
+  "venue": "Proceedings of the 2nd International Workshop on Multimedia Assisted Dietary Management",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Computer vision"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1145/2986035.2986039"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1145/3627673.3679885",
+  "title": "ChefFusion: Multimodal Foundation Model Integrating Recipe and Food Image Generation",
+  "doi": "10.1145/3627673.3679885",
+  "date": "2024-10-21",
+  "authors": [
+   "Peiyu Li",
+   "Xiaobao Huang",
+   "Yijun Tian"
+  ],
+  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Foundation models"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1145/3627673.3679885"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1145/3627673.3679580",
+  "title": "Multi-modal Food Recommendation with Health-aware Knowledge Distillation",
+  "doi": "10.1145/3627673.3679580",
+  "date": "2024-10-21",
+  "authors": [
+   "Yixin Zhang",
+   "Xin Zhou",
+   "Fanglin Zhu"
+  ],
+  "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Distillation"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1145/3627673.3679580"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/s22166299",
+  "title": "A Cloud Enabled Crop Recommendation Platform for Machine Learning-Driven Precision Farming",
+  "doi": "10.3390/s22166299",
+  "date": "2022-8-22",
+  "authors": [
+   "Navod Neranjan Thilakarathne",
+   "Muhammad Saifullah Abu Bakar",
+   "Pg Emerolylariffion Abas"
+  ],
+  "venue": "Sensors",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/s22166299"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.22214/ijraset.2024.59464",
+  "title": "Wild Animal Intrusion Detection System Using Raspberry PI",
+  "doi": "10.22214/ijraset.2024.59464",
+  "date": "2024-3-31",
+  "authors": [
+   "Tanaya Mane"
+  ],
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Quantization and edge deployment"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.22214/ijraset.2024.59464"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/agriengineering8100410",
+  "title": "Cattle-CLIP: A Multimodal Framework for Dairy Cattle Behaviour Recognition from Video",
+  "doi": "10.3390/agriengineering8100410",
+  "date": "2026-9-30",
+  "authors": [
+   "Huimin Liu",
+   "Jing Gao",
+   "Daria Baran"
+  ],
+  "venue": "AgriEngineering",
+  "domains": [
+   "Livestock and aquaculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.3390/agriengineering8100410"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.48550/arxiv.2611.16373",
+  "title": "Description-Guided CLIP Adaptation with Local Evidence Calibration for Few-Shot Plant Disease Recognition",
+  "doi": "10.48550/arxiv.2611.16373",
+  "date": "2026-11-12",
+  "authors": [
+   "Zhenkun Ye",
+   "Qian Zhou",
+   "Hua Zou"
+  ],
+  "venue": "arXiv",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Vision-language models"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://arxiv.org/abs/2611.16373",
+   "https://doi.org/10.48550/arxiv.2611.16373"
+  ],
+  "pdf": [
+   "https://arxiv.org/pdf/2611.16373"
+  ]
+ },
+ {
+  "key": "10.48550/arxiv.2611.23572",
+  "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
+  "doi": "10.48550/arxiv.2611.23572",
+  "date": "2026-11-17",
+  "authors": [
+   "Kaiwen Shi",
+   "Zheyuan Zhang",
+   "Changzhi Liu"
+  ],
+  "venue": "arXiv",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Agents and agentic AI"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://arxiv.org/abs/2611.23572"
+  ],
+  "pdf": [
+   "https://arxiv.org/pdf/2611.23572"
+  ]
+ },
+ {
+  "key": "10.1016/j.crfs.2026.101610",
+  "title": "Advancing hyperspectral milk quality assessment: Deep learning-based spatial-spectral fusion for nutrient estimation.",
+  "doi": "10.1016/j.crfs.2026.101610",
+  "date": "2026-10-30",
+  "authors": [
+   "Hong X",
+   "Xu Z",
+   "Jiang X"
+  ],
+  "venue": "Current research in food science",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://europepmc.org/articles/PMC13755598"
+  ],
+  "pdf": [
+   "https://europepmc.org/articles/PMC13755598?pdf=render"
+  ]
+ },
+ {
+  "key": "10.13140/rg.2.2.27781.51681",
+  "title": "From extreme weather to agricultural consequences with agentic AI",
+  "doi": "10.13140/rg.2.2.27781.51681",
+  "date": "2026-10-29",
+  "authors": [
+   "Minghan Yu",
+   "Mengyu Dai",
+   "Yixin Wen"
+  ],
+  "venue": "arXiv (Cornell University)",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Agents and agentic AI"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://arxiv.org/abs/2610.40641",
+   "https://arxiv.org/abs/2610.40641"
+  ],
+  "pdf": [
+   "https://arxiv.org/pdf/2610.40641",
+   "https://arxiv.org/pdf/2610.40641"
+  ]
+ },
+ {
+  "key": "10.1038/s41598-026-77167-4",
+  "title": "AgriVision: adversarial image detection using Deep Learning in agricultural contexts",
+  "doi": "10.1038/s41598-026-77167-4",
+  "date": "2026-11-05",
+  "authors": [
+   "Mehmet Oğuz Yardımcı",
+   "Ajay Kulkarni",
+   "Trey Ward"
+  ],
+  "venue": "Scientific Reports",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1038/s41598-026-77167-4",
+   "https://doi.org/10.1038/s41598-026-77167-4"
+  ],
+  "pdf": [
+   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf",
+   "https://www.nature.com/articles/s41598-026-77167-4_reference.pdf"
+  ]
  }
 ]

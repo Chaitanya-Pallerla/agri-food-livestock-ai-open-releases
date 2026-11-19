@@ -24,9 +24,9 @@ PROMISE = re.compile(r"(upon (reasonable )?request|on request|will be (made )?(p
 THIRD = re.compile(r"(github\.com/(ultralytics|facebookresearch/(segment-anything|sam2|esm|detectron2|dinov2)|huggingface/|openai/|"
                    r"meta-llama|haotian-liu|QwenLM|ollama|langchain-ai|run-llama|hiyouga/LLaMA-Factory|unslothai|vllm-project|"
                    r"ggerganov|tatsu-lab|lm-sys|microsoft/(LoRA|DeepSpeed)|google-research/(bert|vision_transformer)|IDEA-Research|"
-                   r"WongKinYiu|open-mmlab|pytorch|tensorflow|keras-team|scikit-learn|milvus-io|chroma-core|deepseek-ai|"
+                   r"WongKinYiu|open-mmlab|matterport|nvidia|NVlabs|pytorch|tensorflow|keras-team|scikit-learn|milvus-io|chroma-core|deepseek-ai|"
                    r"mlfoundations|salesforce/LAVIS|OpenGVLab|THUDM|InternLM|kermitt2/grobid|jmorganca)|"
-                   r"huggingface\.co/(meta-llama|google|openai|Qwen|mistralai|microsoft|bert-base|sentence-transformers|"
+                   r"kaggle\.com/(c|competitions)/|huggingface\.co/(nvidia|meta-llama|google|openai|Qwen|mistralai|microsoft|bert-base|sentence-transformers|"
                    r"BAAI|facebook|deepseek-ai|THUDM|internlm|OpenGVLab|liuhaotian|lmsys|TheBloke|nomic-ai|docs|spaces/mteb|blog)|"
                    r"huggingface\.co/?$|github\.com/?$|kaggle\.com/?$|zenodo\.org/?$)", re.I)
 
@@ -171,9 +171,11 @@ def github_search(title, authors=()):
     time.sleep(2.2)  # search API: 30 requests per minute
     out = []
     if r is not None and r.status_code == 200:
-        for x in r.json().get("items", [])[:3]:
+        for x in r.json().get("items", [])[:5]:
             if not plausible_repo(x, title, authors):
                 continue
+            if out:
+                break
             out.append(dict(url=x["html_url"], kinds=["code"], source="GitHub README cites the title", ok=True,
                             stars=x.get("stargazers_count"), license=(x.get("license") or {}).get("spdx_id"),
                             updated=(x.get("pushed_at") or "")[:10]))
@@ -181,19 +183,37 @@ def github_search(title, authors=()):
 
 
 def plausible_repo(repo, title, authors):
-    """A repo found by search counts only if its name shares a distinctive title word (e.g. 'AgroGPT') or its owner
-    matches an author's surname; this rejects repositories that merely cite the paper."""
-    name = plain(repo.get("name", ""))
+    """A repo found by GitHub search is accepted only if (a) its owner matches an author's surname, or (b) its name equals a
+    distinctive name from the title (an acronym, CamelCase or hyphenated system name such as 'AgroBench', 'MTS-CNN',
+    or the single word before the colon). Lists ('awesome-...', surveys, paper collections) are always rejected."""
+    rname = repo.get("name", "")
     owner = plain((repo.get("owner") or {}).get("login", ""))
-    words = [plain(w) for w in re.findall(r"[A-Za-z][A-Za-z0-9-]{3,}", title)]
-    stop = {"with", "from", "using", "based", "model", "models", "large", "language", "learning", "deep", "framework",
-            "approach", "system", "analysis", "towards", "toward", "agricultural", "agriculture", "food", "data", "dataset"}
-    distinct = [w for w in words if w not in stop and len(w) >= 4]
-    surnames = [plain(a.split(",")[0].split()[-1]) for a in authors if a and a.strip()]
-    if any(w and (w in name or name in w) for w in distinct if len(name) >= 4):
+    if re.search(r"awesome|survey|papers|paper-list|reading|daily|arxiv|collection|curated|resources|tutorial|review",
+                 rname + " " + owner, re.I):
+        return False
+    if plain(rname) == owner:             # a profile README repository, not a project
+        return False
+    surnames = []
+    for a in authors:
+        a = (a or "").strip()
+        if a:
+            surnames.append(plain(a.split(",")[0] if "," in a else a.split()[-1]))
+    if any(len(sn) >= 4 and sn in owner for sn in surnames):
         return True
-    return any(sn and len(sn) >= 3 and sn in owner for sn in surnames)
-
+    for a in authors:                     # short surnames (Li, Wu): require the full name, in either order
+        parts = [plain(x) for x in re.split(r"[\s,]+", a or "") if plain(x)]
+        if len(parts) >= 2:
+            full = ["".join(parts), "".join(parts[::-1]), parts[-1] + parts[0], parts[0] + parts[-1]]
+            if any(len(f) >= 5 and f in owner for f in full):
+                return True
+    head = title.split(":")[0].strip()
+    names = re.findall(r"\b(?:[A-Za-z]*[A-Z][a-z]+[A-Z][A-Za-z0-9]*|[A-Z][A-Za-z0-9]*\d[A-Za-z0-9]*|[A-Z]{2,}[A-Za-z0-9]*(?:-[A-Za-z0-9]+)*)\b", title)
+    if len(head.split()) == 1:
+        names.append(head)
+    n = plain(rname)
+    if n == owner:                        # a profile README repository, not a project
+        return False
+    return any(len(plain(x)) >= 4 and re.fullmatch(re.escape(plain(x)) + r"(v?\d{1,2}|official|code|pytorch)?", n) for x in names)
 
 def find_releases(item, full=True):
     links = text_links(item.get("abstract", ""))
@@ -229,7 +249,7 @@ def run(limit=None):
         item["releases"] = rel
         item["checked"] = TODAY
         item["status"] = "auto-detected"
-        item.pop("abstract", None)
+        item["abstract"] = (item.get("abstract") or "")[:1500]
         if any(x.get("ok") for x in rel):
             studies[item["key"]] = item
             norel.pop(item["key"], None)

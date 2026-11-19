@@ -32,6 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/detect.py
+      - name: Re-apply current rules to automatic entries
+        run: python scripts/clean.py
       - name: Build pages
         run: python scripts/build.py
       - name: Commit changes
