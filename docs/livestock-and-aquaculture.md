@@ -1,9 +1,11 @@
 # Livestock and aquaculture: AI studies with open code, data or model weights
 
-22 studies, newest first. Last updated 2026-11-19. [Back to overview](../README.md)
+24 studies, newest first. Last updated 2026-11-20. [Back to overview](../README.md)
 
 | Year | Study | First author | Technologies | Code | Data | Weights | Links | Status |
 |---|---|---|---|:-:|:-:|:-:|---|---|
+| 2026 | [UAV-Based Computer Vision for Cattle Detection and Feed Bunk Spatial Analysis](https://doi.org/10.48550/arxiv.2611.08928) | Pedro Oliveira Torrente | Robotics, Computer vision | ✅ | ✅ |  | [GitHub](https://github.com/EvertonTetila/NelloreBeefCattleDataset) ★2 | auto |
+| 2026 | [A muzzle-based self-enhancing cow recognition method using YOLO and LLM](https://doi.org/10.11591/ijict.v15i4.pp1861-1870) | Rifat Sarker Aoyon | Large language models, Computer vision | ✅ | ✅ |  | [GitHub](https://github.com/JiaUddinPhD/Cow-Muzzle-Dataset) | auto |
 | 2026 | [Toward AI-assisted poultry coccidiosis diagnosis: Evaluating Gemini and BiomedParse on Eimeria microscopy images](https://doi.org/10.48550/arXiv.2609.31679) | Alsalama | Large language models, Vision-language models | ✅ |  |  | not linked in paper | ✔ verified |
 | 2026 | [Text-to-video multi-moment retrieval via adaptive virtual token alignment for pig behavior analysis in surveillance videos](https://doi.org/10.1016/j.compag.2026.112532) | Yang | Video generation | ✅ |  |  | [GitHub](https://github.com/Kevinyang2/PigBDMR) | ✔ verified |
 | 2026 | [Porcine MutBERT: a family of lightweight genomic foundation models for functional element prediction in pigs](https://doi.org/10.1093/bib/bbag319) | Long | Foundation models | ✅ | ✅ |  | [GitHub](https://github.com/ai4nucleome/pigmutbert) | ✔ verified |
