@@ -62,21 +62,29 @@ def plain(s):
 
 
 def _rx(phrases):
-    return re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(p.lower()) for p in phrases) + r")(?![a-z0-9])")
+    return re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(p.lower()) for p in sorted(phrases, key=len, reverse=True)) + r")(?![a-z0-9])")
 
 
 DOMAIN_RX = {d: _rx(p) for d, p in CONFIG["domains"].items()}
 TECH_RX = {t: _rx(p) for t, p in CONFIG["technologies"].items()}
+WEAK = {d: {w.lower() for w in v} for d, v in CONFIG.get("weak", {}).items() if not d.startswith("_")}
+EXCLUDE_RX = _rx(CONFIG.get("exclude_title", {}).get("words", [])) if CONFIG.get("exclude_title", {}).get("words") else None
 
 
 def classify(text, title=None):
     """Domains and technologies of a study. A domain counts if one of its phrases is in the title, or if its phrases occur
     at least three times (two different phrases) in the abstract; this keeps out papers that mention 'food' or 'farm' once."""
-    t = (text or "").lower()
-    ti = (title or "").lower()
+    t = re.sub(r"[-‐‑–]", " ", (text or "").lower())    # 'crop-type' matches 'crop type'
+    ti = re.sub(r"[-‐‑–]", " ", (title or "").lower())
     doms = []
+    if ti and EXCLUDE_RX is not None and EXCLUDE_RX.search(ti):
+        return [], []
     for d, rx in DOMAIN_RX.items():
-        hits = rx.findall(t)
+        weak = WEAK.get(d, set())
+        hits = [h.lower() for h in rx.findall(t + " " + ti)]
+        if hits and all(h in weak for h in hits):   # only ambiguous words: not enough evidence for this domain
+            continue
+        hits = [h.lower() for h in rx.findall(t)]
         if (ti and rx.search(ti)) or (len(hits) >= 3 and len(set(hits)) >= 2) or (title is None and hits):
             doms.append(d)
     techs = [k for k, rx in TECH_RX.items() if rx.search(t) or (ti and rx.search(ti))]

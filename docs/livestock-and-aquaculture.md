@@ -1,6 +1,6 @@
 # Livestock and aquaculture: AI studies with open code, data or model weights
 
-24 studies, newest first. Last updated 2026-11-20. [Back to overview](../README.md)
+24 studies, newest first. Last updated 2026-11-19. [Back to overview](../README.md)
 
 | Year | Study | First author | Technologies | Code | Data | Weights | Links | Status |
 |---|---|---|---|:-:|:-:|:-:|---|---|

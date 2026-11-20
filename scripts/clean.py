@@ -6,7 +6,7 @@ entries are never changed."""
 import re
 
 from common import classify, get, load, plain, save
-from detect import THIRD, plausible_repo
+from detect import THIRD, plausible_repo, reused_dataset
 
 
 def abstract_for(s):
@@ -27,6 +27,18 @@ def abstract_for(s):
     return ""
 
 
+def zenodo_is_release(url):
+    """Zenodo records linked to the DOI count only if they are software, datasets or models, not copies of the paper."""
+    m = re.search(r"zenodo\.org/records?/(\d+)", url)
+    if not m:
+        return True
+    r = get(f"https://zenodo.org/api/records/{m.group(1)}")
+    if r is None or r.status_code != 200:
+        return True
+    rtype = ((r.json().get("metadata") or {}).get("resource_type") or {}).get("type", "")
+    return rtype in ("software", "dataset", "model")
+
+
 def run():
     S = load("studies.json", [])
     norel = {s["key"]: s for s in load("no_release.json", [])}
@@ -38,7 +50,10 @@ def run():
         rel = []
         for r in s.get("releases", []):
             u = r.get("url", "")
-            if THIRD.search(u):
+            if THIRD.search(u) or reused_dataset(u, s.get("authors", [])):
+                dropped_links += 1
+                continue
+            if r.get("source", "").startswith("Zenodo (linked") and not zenodo_is_release(u):
                 dropped_links += 1
                 continue
             if r.get("source", "").startswith("GitHub README"):

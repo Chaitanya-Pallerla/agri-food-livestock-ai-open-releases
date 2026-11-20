@@ -37027,5 +37027,235 @@
    "https://www.sciencedirect.com/science/article/pii/S277237552600941X/pdf",
    "https://www.sciencedirect.com/science/article/pii/S277237552600941X/pdf"
   ]
+ },
+ {
+  "key": "10.1016/j.isprsjprs.2018.09.008",
+  "title": "UAV-based multispectral remote sensing for precision agriculture: A comparison between different cameras",
+  "doi": "10.1016/j.isprsjprs.2018.09.008",
+  "date": "2018-12",
+  "authors": [
+   "Lei Deng",
+   "Zhihui Mao",
+   "Xiaojuan Li"
+  ],
+  "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Robotics"
+  ],
+  "checks": 1,
+  "last": "2026-11-19",
+  "landing": [
+   "https://doi.org/10.1016/j.isprsjprs.2018.09.008"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1016/j.compag.2022.107119",
+  "title": "Towards leveraging the role of machine learning and artificial intelligence in precision agriculture and smart farming",
+  "doi": "10.1016/j.compag.2022.107119",
+  "date": "2022-7",
+  "authors": [
+   "Tawseef Ayoub Shaikh",
+   "Tabasum Rasool",
+   "Faisal Rasheed Lone"
+  ],
+  "venue": "Computers and Electronics in Agriculture",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.1016/j.compag.2022.107119"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1016/j.inpa.2020.09.006",
+  "title": "Insect classification and detection in field crops using modern machine learning techniques",
+  "doi": "10.1016/j.inpa.2020.09.006",
+  "date": "2021-9",
+  "authors": [
+   "Thenmozhi Kasinathan",
+   "Dakshayani Singaraju",
+   "Srinivasulu Reddy Uyyala"
+  ],
+  "venue": "Information Processing in Agriculture",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.1016/j.inpa.2020.09.006"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs10101513",
+  "title": "Evaluating Late Blight Severity in Potato Crops Using Unmanned Aerial Vehicles and Machine Learning Algorithms",
+  "doi": "10.3390/rs10101513",
+  "date": "2018-9-21",
+  "authors": [
+   "Julio M. Duarte-Carvajalino",
+   "Diego F. Alzate",
+   "Andrés A. Ramirez"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.3390/rs10101513"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.3390/rs13214314",
+  "title": "Estimating Crop Biophysical Parameters Using Machine Learning Algorithms and Sentinel-2 Imagery",
+  "doi": "10.3390/rs13214314",
+  "date": "2021-10-27",
+  "authors": [
+   "Mahlatse Kganyago",
+   "Paidamwoyo Mhangara",
+   "Clement Adjorlolo"
+  ],
+  "venue": "Remote Sensing",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.3390/rs13214314"
+  ],
+  "pdf": []
+ },
+ {
+  "key": "10.1922/comdem.v3i6s.19027",
+  "title": "Explainable Hybrid Deep Learning for Tomato Leaf Disease Classification: Comparative Performance and Agricultural Decision-Support Implications",
+  "doi": "10.1922/comdem.v3i6s.19027",
+  "date": "2026-11-01",
+  "authors": [
+   "Suma G.R",
+   "Ghouse Ahmed Z"
+  ],
+  "venue": "Computer and decision making.",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.1922/comdem.v3i6s.19027",
+   "https://doi.org/10.1922/comdem.v3i6s.19027"
+  ],
+  "pdf": [
+   "https://www.comdem.org/index.php/comdem/article/download/19027/12728",
+   "https://www.comdem.org/index.php/comdem/article/download/19027/12728"
+  ]
+ },
+ {
+  "key": "10.1038/s41598-026-77697-x",
+  "title": "Hybrid transformer-augmented convolutional network for robust plant disease recognition from leaf images",
+  "doi": "10.1038/s41598-026-77697-x",
+  "date": "2026-11-10",
+  "authors": [
+   "Zeeshan Ramzan",
+   "Abubakar Iqbal",
+   "Irfanud Din"
+  ],
+  "venue": "Scientific Reports",
+  "domains": [
+   "Agriculture"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.1038/s41598-026-77697-x",
+   "https://doi.org/10.1038/s41598-026-77697-x"
+  ],
+  "pdf": [
+   "https://www.nature.com/articles/s41598-026-77697-x_reference.pdf",
+   "https://www.nature.com/articles/s41598-026-77697-x_reference.pdf"
+  ]
+ },
+ {
+  "key": "10.33003/fjs-2026-1024-6121",
+  "title": "Fruit Nutrient-Based Classification of Selected Food Crops using Bayesian Multilayer Perceptron Algorithm",
+  "doi": "10.33003/fjs-2026-1024-6121",
+  "date": "2026-11-15",
+  "authors": [
+   "Kafayah Idowu Lawal-Habeebullahi",
+   "Tosho Usman Abdulrauf"
+  ],
+  "venue": "FUDMA Journal of Sciences",
+  "domains": [
+   "Agriculture",
+   "Food"
+  ],
+  "technologies": [
+   "Machine learning and deep learning"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.33003/fjs-2026-1024-6121",
+   "https://fjs.fudutsinma.org.ng/index.php/index/article/view/6121"
+  ],
+  "pdf": [
+   "https://fjs.fudutsinma.org.ng/index.php/fjs/article/download/6121/4289"
+  ]
+ },
+ {
+  "key": "10.66879/jmla.2026.83",
+  "title": "BodySync AI: A Multimodal Agentic System for Nutrition Label Extraction and Pose-Based Body Analysis",
+  "doi": "10.66879/jmla.2026.83",
+  "date": "2026-11-16",
+  "authors": [
+   "Yuvjeeth Hosur Sreenivas",
+   " Abhishek Raj Mishra",
+   "Stephanie Roselle Silva"
+  ],
+  "venue": "Journal of Machine Learning Advances",
+  "domains": [
+   "Food"
+  ],
+  "technologies": [
+   "Large language models",
+   "Agents and agentic AI",
+   "Computer vision"
+  ],
+  "checks": 1,
+  "last": "2026-11-20",
+  "landing": [
+   "https://doi.org/10.66879/jmla.2026.83"
+  ],
+  "pdf": [
+   "https://ojs.weavecorepress.com/index.php/JMLA/article/download/83/110"
+  ]
  }
 ]

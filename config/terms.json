@@ -38,7 +38,32 @@
       "harvesting robot",
       "fruit harvesting",
       "crop harvest",
-      "livestock farming"
+      "livestock farming",
+      "cropland",
+      "crop yield",
+      "crop type",
+      "crop types",
+      "crop disease",
+      "crop diseases",
+      "crop mapping",
+      "crop growth",
+      "field crops",
+      "crop monitoring",
+      "crop classification",
+      "crop production",
+      "cover crop",
+      "crop rotation",
+      "crop model",
+      "crop field",
+      "crop fields",
+      "crop management",
+      "food crops",
+      "cash crops",
+      "crop breeding",
+      "plant breeding",
+      "crop species",
+      "crop plants",
+      "crop traits"
     ],
     "Food": [
       "food",
@@ -66,7 +91,10 @@
       "grocery",
       "food processing",
       "bitter peptide",
-      "bioactive peptide"
+      "bioactive peptide",
+      "sensory panel",
+      "food sensory",
+      "sensory attributes"
     ],
     "Livestock and aquaculture": [
       "livestock",
@@ -307,5 +335,52 @@
     "window_days": 21,
     "max_new_per_run": 1500,
     "per_query_limit": 400
+  },
+  "weak": {
+    "_comment": "Ambiguous words that count for a domain only when a non-ambiguous phrase of that domain also appears in the title or abstract (e.g. 'recipe' in 'an open training recipe', 'taste' in 'research taste', 'soil' in geotechnics).",
+    "Agriculture": [
+      "soil",
+      "pest",
+      "pests",
+      "greenhouse",
+      "farm",
+      "irrigation",
+      "crop",
+      "crops"
+    ],
+    "Food": [
+      "recipe",
+      "recipes",
+      "taste",
+      "diet",
+      "dietary",
+      "flavor",
+      "flavour",
+      "meal",
+      "meals",
+      "kitchen",
+      "cooking",
+      "sensory evaluation"
+    ],
+    "Livestock and aquaculture": [
+      "pig",
+      "pigs",
+      "cow",
+      "fish"
+    ]
+  },
+  "exclude_title": {
+    "_comment": "Studies whose title contains one of these words are skipped (clinical and biomedical work).",
+    "words": [
+      "clinical",
+      "patient",
+      "patients",
+      "tumor",
+      "tumour",
+      "cancer",
+      "hospital",
+      "biopsy",
+      "disease risk prediction"
+    ]
   }
 }

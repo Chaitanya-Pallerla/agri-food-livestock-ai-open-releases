@@ -24,9 +24,9 @@ PROMISE = re.compile(r"(upon (reasonable )?request|on request|will be (made )?(p
 THIRD = re.compile(r"(github\.com/(ultralytics|facebookresearch/(segment-anything|sam2|esm|detectron2|dinov2)|huggingface/|openai/|"
                    r"meta-llama|haotian-liu|QwenLM|ollama|langchain-ai|run-llama|hiyouga/LLaMA-Factory|unslothai|vllm-project|"
                    r"ggerganov|tatsu-lab|lm-sys|microsoft/(LoRA|DeepSpeed)|google-research/(bert|vision_transformer)|IDEA-Research|"
-                   r"WongKinYiu|open-mmlab|matterport|nvidia|NVlabs|pytorch|tensorflow|keras-team|scikit-learn|milvus-io|chroma-core|deepseek-ai|"
+                   r"WongKinYiu|pratikkayal|spMohanty|open-mmlab|matterport|nvidia|NVlabs|pytorch|tensorflow|keras-team|scikit-learn|milvus-io|chroma-core|deepseek-ai|"
                    r"mlfoundations|salesforce/LAVIS|OpenGVLab|THUDM|InternLM|kermitt2/grobid|jmorganca)|"
-                   r"kaggle\.com/(c|competitions)/|huggingface\.co/(nvidia|meta-llama|google|openai|Qwen|mistralai|microsoft|bert-base|sentence-transformers|"
+                   r"kaggle\.com/(c|competitions)/|kaggle\.com/(datasets/)?moltean|huggingface\.co/datasets/openfoodfacts|huggingface\.co/(nvidia|meta-llama|google|openai|Qwen|mistralai|microsoft|bert-base|sentence-transformers|"
                    r"BAAI|facebook|deepseek-ai|THUDM|internlm|OpenGVLab|liuhaotian|lmsys|TheBloke|nomic-ai|docs|spaces/mteb|blog)|"
                    r"huggingface\.co/?$|github\.com/?$|kaggle\.com/?$|zenodo\.org/?$)", re.I)
 
@@ -156,7 +156,9 @@ def zenodo_links(doi):
     if r is not None and r.status_code == 200:
         for h in r.json().get("hits", {}).get("hits", []):
             rtype = ((h.get("metadata") or {}).get("resource_type") or {}).get("type", "")
-            kinds = ["code"] if rtype == "software" else ["data"] if rtype == "dataset" else ["data"]
+            if rtype not in ("software", "dataset", "model"):   # 'publication' records are copies of the paper itself
+                continue
+            kinds = ["code"] if rtype == "software" else ["weights"] if rtype == "model" else ["data"]
             out.append(dict(url=h.get("links", {}).get("self_html") or f"https://zenodo.org/records/{h.get('id')}",
                             kinds=kinds, source="Zenodo (linked to DOI)", ok=True))
     return out
@@ -215,10 +217,20 @@ def plausible_repo(repo, title, authors):
         return False
     return any(len(plain(x)) >= 4 and re.fullmatch(re.escape(plain(x)) + r"(v?\d{1,2}|official|code|pytorch)?", n) for x in names)
 
+def reused_dataset(url, authors):
+    """Kaggle datasets cited in a paper are usually public datasets the study reused, so a Kaggle dataset counts as the
+    study's own release only when the uploader's account name matches one of the authors."""
+    m = re.match(r"https?://(?:www\.)?kaggle\.com/(?:datasets/)?([^/?#]+)/", url + "/")
+    if not m or m.group(1).lower() in ("datasets", "c", "competitions", "code", "models"):
+        return False
+    return not plausible_repo({"name": "~", "owner": {"login": m.group(1)}}, "", authors)
+
+
 def find_releases(item, full=True):
     links = text_links(item.get("abstract", ""))
     if full and item.get("pdf"):
         links += [x for x in text_links(pdf_text(item["pdf"])) if x["url"] not in {y["url"] for y in links}]
+    links = [x for x in links if not reused_dataset(x["url"], item.get("authors", []))]
     checked = []
     for x in links:
         c = url_check(x["url"])
